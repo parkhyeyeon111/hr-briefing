@@ -1,0 +1,69 @@
+# ─────────────────────────────────────────────────────────────
+# HR 뉴스 수집: 매일 아침 1회 (한국시간 07:30 ~ 08:00)
+#
+# - GitHub Actions의 cron은 항상 UTC 기준입니다.
+#   한국시간(KST) = UTC + 9시간 → KST 07:30 = 전날 UTC 22:30
+#   따라서 '30 22 * * *' 는 "매일 UTC 22:30 = 다음 날 KST 07:30" 입니다.
+# - 예약 실행은 GitHub 부하에 따라 수 분~수십 분 늦게 시작될 수 있습니다.
+#   07:30에 예약해 두면 대부분 08:00 전후로 수집이 끝납니다.
+# - 평일에만 돌리려면 '30 22 * * 0-4' (UTC 일~목 = KST 월~금)로 바꾸세요.
+# - Actions 탭의 "Run workflow" 버튼(workflow_dispatch)으로 수동 실행도 됩니다.
+#
+# 수집원: 구글 뉴스 RSS (API 키 불필요)
+# Secrets는 모두 선택 사항입니다. 등록하지 않아도 워크플로는 정상 동작합니다.
+#   (Settings › Secrets and variables › Actions)
+#   LAW_OC             있으면 국가법령정보 API로 법령 공포·시행 정보를 추가 수집
+#   ANTHROPIC_API_KEY  있으면 기사 설명문을 2문장으로 요약
+# ─────────────────────────────────────────────────────────────
+name: HR news collector (daily 07:30 KST)
+
+on:
+  schedule:
+    - cron: '30 22 * * *'   # UTC 22:30 = KST 07:30
+  workflow_dispatch: {}
+
+permissions:
+  contents: write            # 수집 결과(data/)를 저장소에 커밋하기 위해 필요
+
+concurrency:
+  group: hr-news-collector
+  cancel-in-progress: false  # 수동 실행과 예약 실행이 겹쳐도 DB가 꼬이지 않게 순차 실행
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Asia/Seoul
+      HR_DB: data/hr_news.db
+      HR_EXPORT: data/articles.json
+      LAW_OC: ${{ secrets.LAW_OC }}                        # 선택
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # 선택
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests feedparser beautifulsoup4
+          # 요약용 SDK는 키가 있을 때만 설치
+          if [ -n "$ANTHROPIC_API_KEY" ]; then pip install anthropic; fi
+
+      - name: Collect HR news
+        run: python hr_news_collector.py
+
+      # 어제까지의 DB를 커밋해 두어야 다음 날 실행에서 중복 제거가 동작합니다.
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/hr_news.db
+          if git diff --cached --quiet; then
+            echo "변경 사항 없음"
+          else
+            git commit -m "data: daily HR news $(date +'%Y-%m-%d %H:%M KST')"
+            git push
+          fi
