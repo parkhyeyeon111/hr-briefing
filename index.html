@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>보상운영 HR 브리핑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: {
+      colors: {
+        paper: 'var(--paper)', surface: 'var(--surface)', sunk: 'var(--sunk)',
+        ink: 'var(--ink)', muted: 'var(--muted)', line: 'var(--line)',
+        seal: 'var(--seal)', sealbg: 'var(--seal-bg)',
+        ledger: 'var(--ledger)', ledgerbg: 'var(--ledger-bg)',
+        navy: 'var(--navy)', navybg: 'var(--navy-bg)',
+        ochre: 'var(--ochre)', plum: 'var(--plum)', plumbg: 'var(--plum-bg)', teal: 'var(--teal)'
+      },
+      fontFamily: { sans: ['"IBM Plex Sans KR"', '"Apple SD Gothic Neo"', '"Malgun Gothic"', 'system-ui', 'sans-serif'] }
+    } }
+  };
+</script>
+<style>
+  :root {
+    --paper:#EDF0F4; --surface:#FFFFFF; --sunk:#F5F7FA; --ink:#18202D; --muted:#586374; --line:#D6DCE4;
+    --seal:#B42F25; --seal-bg:#FBECEA; --ledger:#1E6B58; --ledger-bg:#E5F2ED;
+    --navy:#22407A; --navy-bg:#E7EDF8; --ochre:#94600F; --plum:#65479A; --plum-bg:#EFEAF7; --teal:#0F6E86;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#121821; --surface:#1A222E; --sunk:#151C26; --ink:#E4E9F0; --muted:#9AA5B5; --line:#2B3646;
+      --seal:#EC6B5F; --seal-bg:#3A1F1D; --ledger:#52BC9C; --ledger-bg:#17302A;
+      --navy:#8FB0EC; --navy-bg:#1D2A44; --ochre:#E2A64C; --plum:#B9A0E8; --plum-bg:#2A2340; --teal:#5CC3D9;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#121821; --surface:#1A222E; --sunk:#151C26; --ink:#E4E9F0; --muted:#9AA5B5; --line:#2B3646;
+    --seal:#EC6B5F; --seal-bg:#3A1F1D; --ledger:#52BC9C; --ledger-bg:#17302A;
+    --navy:#8FB0EC; --navy-bg:#1D2A44; --ochre:#E2A64C; --plum:#B9A0E8; --plum-bg:#2A2340; --teal:#5CC3D9;
+    color-scheme: dark;
+  }
+  :root { box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+  html { scroll-padding-top:env(safe-area-inset-top,0px); }
+  *, *::before, *::after { box-sizing: inherit; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif; -webkit-font-smoothing:antialiased; word-break:keep-all; }
+  .num { font-variant-numeric: tabular-nums; letter-spacing:-0.01em; }
+  .clamp2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  :focus-visible { outline:2px solid var(--navy); outline-offset:2px; border-radius:4px; }
+  .scroll-x { overflow-x:auto; scrollbar-width:thin; }
+  img { max-width:100%; }
+  /* 직인 스탬프: 이 대시보드의 시그니처 요소 */
+  .stamp { width:84px; height:84px; border:2.5px solid var(--seal); border-radius:50%; color:var(--seal);
+    display:flex; flex-direction:column; align-items:center; justify-content:center; transform:rotate(-9deg);
+    box-shadow: inset 0 0 0 4px var(--surface), inset 0 0 0 5.5px var(--seal); line-height:1.15; }
+  .fade-swap { animation: swap .35s ease-out; }
+  @keyframes swap { from { opacity:0; transform:translateY(4px);} to { opacity:1; transform:none; } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation:none !important; transition:none !important; } }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htm@3.1.1/dist/htm.umd.js"></script>
+<script>
+const { useState, useEffect, useMemo } = React;
+const html = htm.bind(React.createElement);
+
+/* ------------------------------------------------------------------
+ * 1. 데이터 소스
+ * 지금은 예시 데이터입니다. 수집 파이프라인(hr_news_collector.py)이
+ * 내보내는 articles.json 구조와 동일하므로, 운영 시에는
+ *   const ARTICLES = await (await fetch('/api/articles')).json();
+ * 처럼 교체하면 됩니다.
+ * ------------------------------------------------------------------ */
+const NOW = new Date();
+const ago = (d = 0, h = 0, m = 0) => new Date(NOW.getTime() - ((d * 24 + h) * 60 + m) * 60000);
+
+const SOURCES = {
+  google: '구글 뉴스', moel: '고용노동부', moef: '기획재정부',
+  law: '국가법령정보센터', nts: '국세청', nlrc: '중앙노동위원회', media: 'HR 전문매체', mw: '최저임금위원회'
+};
+
+const TABS = [
+  { id: 'hrm', label: 'HRM', sub: '급여, 노무, 근태, 4대보험', map: '분류: 인사·조직(HR) 보상관리, 고용관계(ER) 근로조건' },
+  { id: 'hrbp', label: 'HRBP·조직문화', sub: '경영진 보고, 조직관리, 리더십, 인사평가', map: '분류: 인사·조직(HR) 인사기획, 성과관리, 직급/승진, 조직문화' },
+  { id: 'talent', label: '채용·인재확보', sub: '채용시장, 헤드헌팅, 채용 브랜딩', map: '분류: 인사·조직(HR) 인력계획, 채용관리' },
+  { id: 'erir', label: '노사관계 ER/IR', sub: '노조법, 취업규칙, 노동위원회 판정', map: '분류: 고용관계(ER), 노사관계(IR)' }
+];
+
+const KIND = {
+  law:     { label: '법령·고시', cls: 'text-ledger bg-ledgerbg' },
+  news:    { label: '뉴스',      cls: 'text-navy bg-navybg' },
+  insight: { label: '인사이트',  cls: 'text-plum bg-plumbg' }
+};
+
+const ARTICLES = [
+  // ── HRM ──
+  { id:'a1', tab:'hrm', domain:'HR', src:'mw', kind:'law', urgent:true, date: ago(57,3),
+    tags:['최저임금','급여'], q:'2027년 최저임금 1만700원 고시',
+    title:'2027년 적용 최저임금 시간당 1만700원 확정 고시',
+    summary:'올해 1만320원보다 380원(3.7%) 오른 금액으로, 월 209시간 기준 223만6,300원입니다. 2027년 1월 1일부터 업종 구분 없이 단일 적용됩니다.' },
+  { id:'a2', tab:'hrm', domain:'HR', src:'google', kind:'news', urgent:true, date: ago(0,2,10),
+    tags:['4대보험','국민연금','급여'], q:'국민연금 보험료율 2027 10%',
+    title:'국민연금 보험료율 내년 10%로… 1월 급여부터 근로자 부담 5.0% 반영',
+    summary:'연금개혁에 따라 보험료율이 매년 0.5%p씩 올라 2027년에는 10%가 됩니다. 급여 시스템 공제율과 사용자 부담분 인건비 예산을 함께 바꿔야 합니다.' },
+  { id:'a3', tab:'hrm', domain:'HR', src:'google', kind:'news', urgent:true, date: ago(0,5,30),
+    tags:['통상임금','판례','급여'], q:'재직조건 상여금 통상임금 수당 재산정',
+    title:'재직조건부 상여금도 통상임금… 연장근로수당 재산정 실무 점검',
+    summary:'2024년 12월 대법원 전원합의체가 고정성 요건을 폐기하면서 재직·근무일수 조건이 붙은 정기상여금도 통상임금에 포함됩니다. 수당 단가와 연차수당 산정 기준을 다시 확인하세요.' },
+  { id:'a6', tab:'hrm', domain:'ER', src:'google', kind:'news', urgent:true, date: ago(0,8),
+    tags:['연차','근태','퇴직금'], q:'퇴사자 미사용 연차수당 정산 회계연도',
+    title:'퇴사자 미사용 연차수당 정산 분쟁 늘어… 회계연도 기준 운영 시 유의점',
+    summary:'회계연도 기준으로 연차를 부여하는 회사는 퇴사 시 입사일 기준과 비교해 불리하지 않게 정산해야 합니다. 연차 사용촉진 절차를 거쳤는지도 쟁점이 됩니다.' },
+  { id:'a7', tab:'hrm', domain:'HR', src:'moel', kind:'law', urgent:true, date: ago(1,6),
+    tags:['퇴직금','퇴직연금','시행령'],
+    title:'퇴직급여법 시행령 개정안 입법예고… 퇴직연금 운용 관련 의견 수렴',
+    summary:'입법예고 기간 동안 기업 의견을 받습니다. 확정되면 DB·DC 운영 규정과 근로자 안내문을 함께 손봐야 할 수 있습니다.' },
+  { id:'a5', tab:'hrm', domain:'HR', src:'nts', kind:'news', urgent:false, date: ago(2,1),
+    tags:['비과세','급여','연말정산'],
+    title:'식대 비과세 월 20만원, 현물 식사와 함께 주면 과세 대상',
+    summary:'구내식당 등 현물 식사를 제공하면서 식대를 별도로 지급하면 그 식대는 비과세가 아닙니다. 급여 항목 코드의 비과세 구분을 점검하세요.' },
+  { id:'a8', tab:'hrm', domain:'HR', src:'moef', kind:'law', urgent:false, date: ago(3,2),
+    tags:['세법','연말정산','비과세'],
+    title:'세법개정 후속 시행령 개정안 입법예고… 근로소득 관련 항목 확인',
+    summary:'근로소득 비과세·공제 항목 변경이 포함됐는지 확인하고, 급여 시스템과 연말정산 안내문 반영 일정을 미리 잡아두세요.' },
+  { id:'a4', tab:'hrm', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(1,3),
+    tags:['연말정산'], q:'연말정산 사전 점검 체크리스트',
+    title:'연말정산 사전 점검 체크리스트: 11월 안내 공지 전에 확인할 것',
+    summary:'부양가족 변동, 주택자금·월세 공제 서류, 중도입사자 전 근무지 원천징수영수증 수집 일정을 미리 잡아두면 2월 정산 오류를 줄일 수 있습니다.' },
+  { id:'a9', tab:'hrm', domain:'ER', src:'google', kind:'news', urgent:false, date: ago(0,11),
+    tags:['근태','근로시간'], q:'주 4.5일제 근태 연차 산정',
+    title:'주 4.5일제 도입 기업 늘어… 근태 시스템과 연차 산정 어떻게 바꾸나',
+    summary:'소정근로시간이 줄면 시간급 통상임금과 연차 산정 기준이 함께 바뀝니다. 취업규칙 변경 절차도 필요합니다.' },
+
+  // ── HRBP & 조직문화 ──
+  { id:'b4', tab:'hrbp', domain:'HR', src:'google', kind:'news', urgent:false, date: ago(0,4),
+    tags:['경영보고','인건비'], q:'내년 인건비 계획 최저임금 연금 인상',
+    title:'내년 인건비 계획 시즌… 최저임금·연금요율 인상분 반영한 시뮬레이션 필요',
+    summary:'기본급 인상률 외에 법정 요율 변경과 통상임금 범위 확대 효과를 별도 항목으로 나눠 경영진에게 보고하면 의사결정이 빨라집니다.' },
+  { id:'b1', tab:'hrbp', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(2,4),
+    tags:['성과관리','인사평가'], q:'인사평가 캘리브레이션 경영진 보고',
+    title:'평가시행 프로세스: 캘리브레이션 결과를 경영진 보고로 연결하기',
+    summary:'평가 분포, 조정 사유, 보상 연계안을 한 장에 정리해 경영진에게 보고하는 흐름을 단계별로 설명합니다.' },
+  { id:'b2', tab:'hrbp', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(3,6),
+    tags:['직급/승진'], q:'직급 통합 승진 포인트제',
+    title:'직급 통합 이후의 승진 체계, 포인트제로 다시 설계하기',
+    summary:'직급 단계를 줄인 뒤에도 성장 신호를 주기 위해 평가 등급을 포인트로 누적하는 방식과 운영상 예외 규정을 다룹니다.' },
+  { id:'b5', tab:'hrbp', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(4),
+    tags:['리더십','저성과자'], q:'저성과자 관리 프로세스',
+    title:'저성과자 관리 프로세스: 리더가 기록으로 남겨야 할 것',
+    summary:'목표 합의, 중간 피드백, 개선 기회 부여까지 단계별로 남길 기록을 정리했습니다. 이후 인사 조치의 정당성 판단에 직접 영향을 줍니다.' },
+  { id:'b3', tab:'hrbp', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(5),
+    tags:['조직문화'], q:'조직문화 진단 설문 OHI',
+    title:'McKinsey OHI로 조직문화 진단 설문 짜기',
+    summary:'조직 건강도 지표(OHI)의 영역을 사내 설문 문항으로 옮기는 방법과 결과를 리더 보고서로 만드는 순서를 설명합니다.' },
+
+  // ── 채용 & 인재확보 ──
+  { id:'c1', tab:'talent', domain:'HR', src:'google', kind:'news', urgent:false, date: ago(0,6),
+    tags:['채용시장'], q:'하반기 공채 축소 수시채용 경력채용',
+    title:'하반기 대기업 공채 축소, 수시·경력 채용 비중 확대',
+    summary:'신입 공채를 줄이고 직무별 수시채용과 경력직 비중을 늘리는 흐름이 이어지고 있습니다. 채용 예산 배분과 온보딩 설계도 달라집니다.' },
+  { id:'c2', tab:'talent', domain:'HR', src:'google', kind:'news', urgent:false, date: ago(1,2),
+    tags:['채용프로세스','AI'], q:'AI 역량검사 채용 공정성',
+    title:'AI 역량검사 도입 기업 늘지만… 지원자 안내 범위 두고 논의',
+    summary:'AI 평가를 쓰는 경우 어떤 정보가 어떻게 활용되는지 지원자에게 알리는 범위가 쟁점입니다. 채용 공고 문구 점검이 필요합니다.' },
+  { id:'c6', tab:'talent', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(1,9),
+    tags:['채용브랜딩','EVP'], q:'EVP 채용 브랜딩',
+    title:'EVP를 채용 공고 문장으로 바꾸는 법',
+    summary:'회사가 주는 가치를 추상어 대신 근무 방식, 보상 구조, 성장 경로 같은 구체적 사실로 표현해야 지원 전환율이 오릅니다.' },
+  { id:'c4', tab:'talent', domain:'HR', src:'moel', kind:'news', urgent:false, date: ago(2),
+    tags:['공정채용','채용절차법'],
+    title:'공정채용 점검: 채용서류 반환·결과 고지 의무 다시 확인',
+    summary:'채용절차법상 서류 반환 청구 안내, 채용 여부 고지 의무를 지키고 있는지 하반기 채용 전에 체크리스트로 점검하세요.' },
+  { id:'c3', tab:'talent', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(3),
+    tags:['헤드헌팅'], q:'헤드헌팅 수수료 보증기간',
+    title:'경력직 헤드헌팅 수수료 구조와 보증기간 협상 포인트',
+    summary:'연봉 대비 수수료율, 조기 퇴사 시 보증기간과 환불 조건, 독점 의뢰 여부에 따라 실제 채용 비용이 크게 달라집니다.' },
+  { id:'c5', tab:'talent', domain:'HR', src:'media', kind:'insight', urgent:false, date: ago(6),
+    tags:['채용관리'], q:'채용 프로세스 직무기술서 처우 협의',
+    title:'채용관리 기본기: 직무기술서에서 처우 협의까지',
+    summary:'채용 요청, 직무기술서 작성, 전형 설계, 처우 협의까지 채용 실무의 표준 흐름을 정리합니다.' },
+
+  // ── 노사관계 & ER/IR ──
+  { id:'d1', tab:'erir', domain:'IR', src:'google', kind:'news', urgent:false, date: ago(0,3),
+    tags:['노조법','단체교섭'], q:'개정 노조법 하청노조 교섭 요구 원청',
+    title:'개정 노조법 시행 이후 하청노조 교섭 요구 잇따라… 원청 대응 점검',
+    summary:'사용자 범위 확대 조항에 따라 원청에 교섭을 요구하는 사례가 늘고 있습니다. 하도급 계약 구조와 실질적 지배력 판단 기준을 확인하세요.' },
+  { id:'d6', tab:'erir', domain:'IR', src:'google', kind:'news', urgent:false, date: ago(0,9),
+    tags:['임금교섭','단체교섭'], q:'임단협 성과급 기준 노사',
+    title:'하반기 임단협 시즌… 성과급 산정 기준 두고 노사 이견',
+    summary:'영업이익 연동 성과급의 재원 기준과 지급률을 놓고 교섭이 길어지는 사례가 많습니다. 통상임금 영향까지 함께 검토해야 합니다.' },
+  { id:'d3', tab:'erir', domain:'ER', src:'nlrc', kind:'news', urgent:false, date: ago(1,1),
+    tags:['노동위원회','부당해고','징계'],
+    title:'부당해고 판정 사례: 징계위원회 절차 하자로 구제 인정',
+    summary:'징계 사유가 인정돼도 소명 기회 부여, 징계위원회 구성 등 취업규칙상 절차를 지키지 않으면 부당해고로 판정될 수 있습니다.' },
+  { id:'d2', tab:'erir', domain:'ER', src:'google', kind:'news', urgent:false, date: ago(2,5),
+    tags:['취업규칙','판례'], q:'취업규칙 불이익 변경 사회통념상 합리성 전원합의체',
+    title:'취업규칙 불이익 변경, 근로자 과반 동의 없으면 원칙적으로 무효',
+    summary:'2023년 대법원 전원합의체는 사회통념상 합리성만으로 동의 없는 불이익 변경을 유효로 볼 수 없다고 판단했습니다. 동의권 남용이 인정되는 예외만 남습니다.' },
+  { id:'d4', tab:'erir', domain:'ER', src:'media', kind:'insight', urgent:false, date: ago(3,7),
+    tags:['직장 내 괴롭힘'], q:'직장 내 괴롭힘 조사 보고서',
+    title:'직장 내 괴롭힘 조사 보고서, 객관성 확보를 위한 원칙',
+    summary:'조사자 독립성, 진술 기록 방식, 사실 인정과 판단의 분리가 핵심입니다. 이후 징계와 노동위원회 단계에서 증거로 쓰입니다.' },
+  { id:'d5', tab:'erir', domain:'ER', src:'moel', kind:'news', urgent:false, date: ago(4),
+    tags:['근로자대표'],
+    title:'근로자대표 제도 법제화 논의… 선출 절차와 권한 명확화',
+    summary:'탄력근로·선택근로 합의 등 근로자대표가 필요한 제도가 많아 선출 절차를 문서로 남겨두는 것이 안전합니다.' }
+];
+
+const HOT_TAGS = ['급여', '통상임금', '4대보험', '국민연금', '최저임금'];
+
+/* ------------------------------------------------------------------
+ * 2. 유틸
+ * ------------------------------------------------------------------ */
+const pad = n => String(n).padStart(2, '0');
+const WD = ['일', '월', '화', '수', '목', '금', '토'];
+const fmtAbs = d => `${d.getFullYear()}.${pad(d.getMonth() + 1)}.${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+function fmtRel(d) {
+  const m = Math.round((Date.now() - d) / 60000);
+  if (m < 1) return '방금';
+  if (m < 60) return `${m}분 전`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h}시간 전`;
+  const dd = Math.floor(h / 24);
+  return dd < 30 ? `${dd}일 전` : `${Math.floor(dd / 30)}개월 전`;
+}
+const sameDay = (a, b) => a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+const startOfDay = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+
+/* 원문 링크
+ * - 수집 데이터(articles.json)는 각 기사의 실제 url을 그대로 사용
+ * - url이 없는 예시 카드는 제목(또는 q 검색어)으로 구글 뉴스 검색(tbm=nws) 결과로 연결 */
+const googleNewsSearch = q =>
+  `https://www.google.com/search?${new URLSearchParams({ q, tbm: 'nws', hl: 'ko', gl: 'kr' })}`;
+
+function linkFor(a) {
+  if (a.url) return a.url;
+  return googleNewsSearch(a.q || a.title);
+}
+
+const BM_KEY = 'hr-dash:bookmarks';
+function loadBM() { try { const v = localStorage.getItem(BM_KEY); return v ? JSON.parse(v) : []; } catch (e) { return []; } }
+function saveBM(list) { try { localStorage.setItem(BM_KEY, JSON.stringify(list)); } catch (e) {} }
+
+/* ------------------------------------------------------------------
+ * 3. HR 일정 규칙 (회사 급여일·공휴일에 맞게 수정)
+ * ------------------------------------------------------------------ */
+const EV_TYPE = {
+  pay:  { label: '급여',       color: 'var(--navy)' },
+  ins:  { label: '4대보험',    color: 'var(--ledger)' },
+  tax:  { label: '원천세',     color: 'var(--ochre)' },
+  stmt: { label: '지급명세서', color: 'var(--teal)' },
+  ye:   { label: '연말정산',   color: 'var(--plum)' },
+  law:  { label: '법령 시행',  color: 'var(--seal)' }
+};
+const PAY_DAY = 25;
+
+/* 한 달치 '원래 기한' 일정을 만든다. 신고·납부 기한이 주말이면 다음 영업일로 미뤄지므로
+ * 말일 마감은 다음 달로 넘어갈 수 있다(eventsForMonth에서 보정). 공휴일은 HOLIDAYS에 추가. */
+const FIXED_HOLIDAYS = new Set(['01-01', '03-01', '05-05', '06-06', '08-15', '10-03', '10-09', '12-25']); // 양력 고정 공휴일
+const HOLIDAYS = new Set([]); // 설·추석·대체공휴일·선거일 등은 연도별로 추가 (예: '2027-02-08')
+const ymd = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const isOff = d => d.getDay() === 0 || d.getDay() === 6 || FIXED_HOLIDAYS.has(ymd(d).slice(5)) || HOLIDAYS.has(ymd(d));
+
+function rawEvents(y, m) {
+  const ev = [];
+  const next = day => { const d = new Date(y, m, day); while (isOff(d)) d.setDate(d.getDate() + 1); return d; };
+  const prev = day => { const d = new Date(y, m, day); while (isOff(d)) d.setDate(d.getDate() - 1); return d; };
+  const add = (date, type, title, note) => ev.push({ date, type, title, note });
+  const movedNote = (d, day, base) => d.getDate() !== day || d.getMonth() !== m ? `${base} (기한이 주말·공휴일이라 다음 영업일로 이동)` : base;
+  const lastDay = new Date(y, m + 1, 0).getDate();
+
+  // 매월 10일: 원천세 신고·납부, 간이지급명세서(거주자 사업소득)
+  const d10 = next(10);
+  if (m === 2) {
+    add(d10, 'ye', '연말정산 원천징수이행상황신고서 제출·납부', movedNote(d10, 10, '2월 지급분, 연말정산 결과 포함'));
+    add(d10, 'stmt', '근로·사업·퇴직소득 지급명세서 최종 제출', movedNote(d10, 10, '전년도 귀속분 연간 지급명세서'));
+  } else {
+    add(d10, 'tax', '원천세 신고·납부', movedNote(d10, 10, '전월 지급분 원천징수이행상황신고서'));
+  }
+  add(d10, 'stmt', '간이지급명세서 제출 (거주자 사업소득)', movedNote(d10, 10, '전월 지급분'));
+  add(d10, 'ins', '4대보험료 납부', '전월분 보험료');
+
+  // 매월 15일: 4대보험 취득·상실 신고
+  const d15 = next(15);
+  add(d15, 'ins', '4대보험 취득·상실 신고 기한', '전월 입·퇴사자 기준');
+
+  // 급여일: 주말이면 직전 영업일로 당겨 지급
+  const dPay = prev(PAY_DAY);
+  add(dPay, 'pay', '급여 지급일', dPay.getDate() !== PAY_DAY ? `${PAY_DAY}일이 휴일이라 직전 영업일로 당김` : (m === 1 ? '연말정산 환급·추징 반영' : '정기 급여'));
+
+  // 매월 말일: 간이지급명세서(근로소득·기타소득 등)
+  const dEnd = next(lastDay);
+  add(dEnd, 'stmt', '간이지급명세서 제출 (근로·기타소득 등)', movedNote(dEnd, lastDay, '전월 지급분'));
+
+  // 연간 일정
+  if (m === 0) add(next(15), 'ye', '연말정산 간소화 자료 조회 시작', '홈택스 공개 일정 확인');
+  if (m === 2) {
+    add(d10, 'ins', '건강보험 보수총액 신고', '전년도 보수총액');
+    const d15b = next(15);
+    add(d15b, 'ins', '고용·산재보험 보수총액 신고 마감', movedNote(d15b, 15, '근로복지공단, 전년도 보수총액'));
+  }
+  if (m === 3) add(next(10), 'ins', '건강보험 정산보험료 고지분 납부', '4월분 보험료에 포함');
+  if (m === 6) add(new Date(y, 6, 1), 'ins', '국민연금 기준소득월액 상·하한 변경', '7월 적용분');
+  if (m === 10) add(next(16), 'ye', '연말정산 사전 안내 공지', '권장 일정');
+  if (m === 11) add(next(15), 'law', '내년 최저임금·요율 급여시스템 반영 점검', '권장 일정');
+  if (y === 2027 && m === 0) add(new Date(2027, 0, 1), 'law', '최저임금 1만700원, 국민연금 10% 적용', '2027.1.1 시행');
+  return ev;
+}
+
+/* 달력·마감 목록용: 해당 월에 실제로 떨어지는 일정만 (전월 말일 마감이 넘어온 경우 포함) */
+function eventsForMonth(y, m) {
+  const inMonth = e => e.date.getFullYear() === y && e.date.getMonth() === m;
+  const pm = new Date(y, m - 1, 1);
+  return [...rawEvents(pm.getFullYear(), pm.getMonth()), ...rawEvents(y, m)]
+    .filter(inMonth)
+    .sort((a, b) => a.date - b.date);
+}
+
+/* ------------------------------------------------------------------
+ * 4. 컴포넌트
+ * ------------------------------------------------------------------ */
+function Icon({ name, size = 18, filled = false }) {
+  const p = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, strokeLinecap: 'round', strokeLinejoin: 'round', 'aria-hidden': true };
+  if (name === 'bookmark') return html`<svg ...${p} fill=${filled ? 'currentColor' : 'none'}><path d="M6.5 3.5h11v17l-5.5-3.8-5.5 3.8z"/></svg>`;
+  if (name === 'ext') return html`<svg ...${p}><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>`;
+  if (name === 'search') return html`<svg ...${p}><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>`;
+  if (name === 'left') return html`<svg ...${p}><path d="M15 5l-7 7 7 7"/></svg>`;
+  if (name === 'right') return html`<svg ...${p}><path d="M9 5l7 7-7 7"/></svg>`;
+  return null;
+}
+
+function Header({ q, setQ, stats }) {
+  const today = `${NOW.getFullYear()}년 ${NOW.getMonth() + 1}월 ${NOW.getDate()}일 (${WD[NOW.getDay()]})`;
+  return html`
+  <header className="border-b border-line bg-surface">
+    <div className="mx-auto max-w-[1360px] px-4 lg:px-6 pt-5 pb-4">
+      <div className="flex flex-wrap items-end justify-between gap-4">
+        <div>
+          <p className="text-sm text-muted">HRM팀 보상운영 파트 · ${today}</p>
+          <h1 className="mt-1 text-[26px] font-bold tracking-tight">보상운영 HR 브리핑</h1>
+        </div>
+        <label className="relative w-full sm:w-80">
+          <span className="sr-only">뉴스 검색</span>
+          <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-muted"><${Icon} name="search" size=${17} /></span>
+          <input value=${q} onInput=${e => setQ(e.target.value)} placeholder="제목, 요약, 태그로 검색"
+            className="w-full rounded-md border border-line bg-sunk py-2.5 pl-9 pr-3 text-[15px] text-ink placeholder:text-muted focus:border-navy focus:outline-none" />
+        </label>
+      </div>
+
+      <dl className="mt-5 grid grid-cols-1 overflow-hidden rounded-md border border-line sm:grid-cols-3">
+        ${stats.map((s, i) => html`
+          <div key=${s.label} className=${'flex items-baseline gap-3 bg-sunk px-4 py-3 ' + (i > 0 ? 'border-t border-line sm:border-l sm:border-t-0' : '')}>
+            <dd className="num text-[34px] font-semibold leading-none" style=${{ color: s.color }}>${s.value}</dd>
+            <dt className="text-sm leading-snug">
+              <span className="block font-medium">${s.label}</span>
+              <span className="block text-muted">${s.note}</span>
+            </dt>
+          </div>`)}
+      </dl>
+    </div>
+  </header>`;
+}
+
+function HotRoller({ items, bookmarks, onMark }) {
+  const [i, setI] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const reduce = useMemo(() => !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches), []);
+  useEffect(() => {
+    if (paused || reduce || items.length < 2) return;
+    const t = setInterval(() => setI(x => (x + 1) % items.length), 7000);
+    return () => clearInterval(t);
+  }, [paused, reduce, items.length]);
+  if (!items.length) return null;
+  const a = items[i % items.length];
+  const go = d => setI(x => (x + d + items.length) % items.length);
+  const marked = bookmarks.includes(a.id);
+  return html`
+  <section aria-label="급여·보상·노무 필독 이슈" className="relative flex flex-col rounded-lg border border-line bg-surface"
+    onMouseEnter=${() => setPaused(true)} onMouseLeave=${() => setPaused(false)}
+    onFocus=${() => setPaused(true)} onBlur=${() => setPaused(false)}>
+    <div className="absolute left-0 top-0 h-full w-1.5 rounded-l-lg bg-seal"></div>
+    <div className="flex items-center justify-between gap-3 border-b border-line px-5 py-3 pl-6">
+      <h2 className="flex items-center gap-2 text-[15px] font-semibold">
+        <span className="rounded-sm bg-seal px-1.5 py-0.5 text-xs font-bold text-white">필독</span>
+        급여·보상·노무 핫이슈
+      </h2>
+      <div className="flex items-center gap-1">
+        <span className="num mr-2 text-sm text-muted">${i + 1} / ${items.length}</span>
+        <button onClick=${() => go(-1)} aria-label="이전 이슈" className="rounded-md p-1.5 text-muted hover:bg-sunk hover:text-ink"><${Icon} name="left" /></button>
+        <button onClick=${() => go(1)} aria-label="다음 이슈" className="rounded-md p-1.5 text-muted hover:bg-sunk hover:text-ink"><${Icon} name="right" /></button>
+      </div>
+    </div>
+    <div key=${a.id} className="fade-swap flex flex-1 flex-col px-5 py-5 pl-6" aria-live="polite">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
+        <span className="font-medium text-ink">${SOURCES[a.src]}</span>
+        <span className=${'rounded px-1.5 py-0.5 text-xs font-medium ' + KIND[a.kind].cls}>${KIND[a.kind].label}</span>
+        <time dateTime=${a.date.toISOString()}>${fmtAbs(a.date)} (${fmtRel(a.date)})</time>
+      </div>
+      <h3 className="mt-3 text-[22px] font-semibold leading-snug tracking-tight sm:text-[24px]">${a.title}</h3>
+      <p className="mt-2 max-w-[62ch] text-[15px] leading-relaxed text-muted">${a.summary}</p>
+      <div className="mt-auto flex flex-wrap items-center gap-2 pt-5">
+        ${a.tags.map(t => html`<span key=${t} className="rounded-full border border-line px-2.5 py-0.5 text-sm text-muted">#${t}</span>`)}
+        <span className="flex-1"></span>
+        <button onClick=${() => onMark(a.id)} aria-pressed=${marked} aria-label=${marked ? '북마크 해제' : '북마크'}
+          className=${'rounded-md border border-line p-2 hover:bg-sunk ' + (marked ? 'text-seal' : 'text-muted')}><${Icon} name="bookmark" filled=${marked} /></button>
+        <${OriginLink} a=${a} primary=${true} />
+      </div>
+      <div className="mt-4 flex gap-1.5" role="tablist" aria-label="이슈 선택">
+        ${items.map((it, k) => html`<button key=${it.id} role="tab" aria-selected=${k === i} aria-label=${`${k + 1}번 이슈`} onClick=${() => setI(k)}
+          className=${'h-1.5 rounded-full ' + (k === i ? 'w-6 bg-seal' : 'w-3 bg-line hover:bg-muted')}></button>`)}
+      </div>
+    </div>
+  </section>`;
+}
+
+function RateBoard() {
+  const rows = [
+    { k: '최저시급', from: '10,320', to: '10,700', unit: '원', note: '380원 인상, 3.7%' },
+    { k: '최저 월 환산액', from: '2,156,880', to: '2,236,300', unit: '원', note: '월 209시간 기준' },
+    { k: '국민연금 보험료율', from: '9.5', to: '10.0', unit: '%', note: '근로자·사용자 각 5.0%' },
+    { k: '건강보험료율', from: '7.19', to: null, unit: '%', note: '2027년 요율 고시 확인 필요' }
+  ];
+  return html`
+  <section aria-label="2027년 1월부터 바뀌는 급여 기준" className="relative rounded-lg border border-line bg-surface">
+    <div className="flex items-start justify-between gap-3 px-5 pt-4">
+      <div>
+        <h2 className="text-[15px] font-semibold">내년 1월 급여에 반영할 숫자</h2>
+        <p className="mt-0.5 text-sm text-muted">급여 시스템 기준값 변경 대상</p>
+      </div>
+      <div className="stamp shrink-0 -mb-6 -mt-1 mr-1" aria-label="시행일 2027년 1월 1일">
+        <span className="text-[11px] font-semibold">시행</span>
+        <span className="num text-[15px] font-bold">2027</span>
+        <span className="num text-[12px] font-semibold">1. 1.</span>
+      </div>
+    </div>
+    <table className="mt-3 w-full text-left">
+      <caption className="sr-only">2026년 대비 2027년 기준값</caption>
+      <thead>
+        <tr className="border-b border-line text-sm text-muted">
+          <th scope="col" className="px-5 py-2 font-medium">항목</th>
+          <th scope="col" className="px-2 py-2 text-right font-medium">2026</th>
+          <th scope="col" className="px-5 py-2 text-right font-medium">2027</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(r => html`
+        <tr key=${r.k} className="border-b border-line last:border-0">
+          <th scope="row" className="px-5 py-3 align-top font-normal">
+            <span className="block text-[15px] font-medium">${r.k}</span>
+            <span className="block text-sm text-muted">${r.note}</span>
+          </th>
+          <td className="num px-2 py-3 text-right align-top text-[15px] text-muted">${r.from}${r.unit}</td>
+          <td className="px-5 py-3 text-right align-top">
+            ${r.to
+              ? html`<span className="whitespace-nowrap"><span className="num text-[22px] font-semibold leading-none">${r.to}</span><span className="ml-0.5 text-sm text-muted">${r.unit}</span></span>`
+              : html`<a href="https://www.nhis.or.kr" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-seal underline underline-offset-2">공단에서 확인</a>`}
+          </td>
+        </tr>`)}
+      </tbody>
+    </table>
+  </section>`;
+}
+
+function OriginLink({ a, primary }) {
+  const href = linkFor(a);
+  if (!href) return null;
+  return primary
+    ? html`<a href=${href} target="_blank" rel="noopener noreferrer"
+        className="inline-flex items-center gap-1.5 rounded-md bg-ink px-3.5 py-2 text-sm font-medium text-paper hover:opacity-90">원문 보기 <${Icon} name="ext" size=${15} /></a>`
+    : html`<a href=${href} target="_blank" rel="noopener noreferrer"
+        className="inline-flex shrink-0 items-center gap-1 rounded-md border border-line px-2.5 py-1.5 text-sm font-medium hover:border-ink">원문 보기 <${Icon} name="ext" size=${14} /></a>`;
+}
+
+function Card({ a, marked, onMark, onTag, activeTag }) {
+  return html`
+  <article className=${'flex flex-col rounded-lg border bg-surface p-4 ' + (a.urgent ? 'border-seal' : 'border-line')}>
+    <div className="flex items-start justify-between gap-3">
+      <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+        <span className="font-semibold">${SOURCES[a.src]}</span>
+        <span className=${'rounded px-1.5 py-0.5 text-xs font-medium ' + KIND[a.kind].cls}>${KIND[a.kind].label}</span>
+        <span className="rounded border border-line px-1.5 py-0.5 text-xs text-muted" title="상위 분류: 인사·조직(HR), 고용관계(ER), 노사관계(IR)">${a.domain}</span>
+        ${a.urgent && html`<span className="rounded bg-sealbg px-1.5 py-0.5 text-xs font-semibold text-seal">필독</span>`}
+      </div>
+      <button onClick=${() => onMark(a.id)} aria-pressed=${marked} aria-label=${marked ? '북마크 해제' : '북마크'}
+        className=${'-m-1 rounded-md p-1.5 hover:bg-sunk ' + (marked ? 'text-seal' : 'text-muted')}><${Icon} name="bookmark" filled=${marked} /></button>
+    </div>
+    <h3 className="mt-2.5 text-[17px] font-semibold leading-snug">${a.title}</h3>
+    <p className="clamp2 mt-1.5 text-[15px] leading-relaxed text-muted">${a.summary}</p>
+    <div className="mt-3 flex flex-wrap gap-1.5">
+      ${a.tags.map(t => html`<button key=${t} onClick=${() => onTag(t)}
+        className=${'rounded-full px-2 py-0.5 text-[13px] ' + (activeTag === t ? 'bg-ink text-paper' : 'bg-sunk text-muted hover:text-ink')}>#${t}</button>`)}
+    </div>
+    <div className="mt-auto flex items-center justify-between gap-3 border-t border-line pt-3 mt-4">
+      <time dateTime=${a.date.toISOString()} className="num text-sm text-muted">${fmtAbs(a.date)} <span className="ml-1">${fmtRel(a.date)}</span></time>
+      <${OriginLink} a=${a} />
+    </div>
+  </article>`;
+}
+
+function Chip({ on, onClick, children }) {
+  return html`<button onClick=${onClick} aria-pressed=${on}
+    className=${'whitespace-nowrap rounded-full border px-3 py-1 text-sm ' + (on ? 'border-ink bg-ink text-paper' : 'border-line bg-surface text-muted hover:text-ink')}>${children}</button>`;
+}
+
+function Feed({ q, bookmarks, onMark }) {
+  const [tab, setTab] = useState('hrm');
+  const [tag, setTag] = useState(null);
+  const [src, setSrc] = useState('all');
+  const [sort, setSort] = useState('latest');
+  const [onlyBM, setOnlyBM] = useState(false);
+
+  const matchQ = a => !q || (a.title + a.summary + a.tags.join(' ') + SOURCES[a.src]).toLowerCase().includes(q.trim().toLowerCase());
+  const counts = useMemo(() => Object.fromEntries(TABS.map(t => [t.id, ARTICLES.filter(a => a.tab === t.id && matchQ(a)).length])), [q]);
+  const tabItems = ARTICLES.filter(a => a.tab === tab);
+  const tags = [...new Set(tabItems.flatMap(a => a.tags))];
+  const srcs = [...new Set(tabItems.map(a => a.src))];
+
+  let list = tabItems.filter(a => matchQ(a) && (!tag || a.tags.includes(tag)) && (src === 'all' || a.src === src) && (!onlyBM || bookmarks.includes(a.id)));
+  list = list.sort((x, y) => sort === 'latest' ? y.date - x.date
+    : (Number(y.urgent) - Number(x.urgent)) || ((y.kind === 'law') - (x.kind === 'law')) || (y.date - x.date));
+
+  const switchTab = id => { setTab(id); setTag(null); setSrc('all'); };
+  const reset = () => { setTag(null); setSrc('all'); setOnlyBM(false); };
+  const cur = TABS.find(t => t.id === tab);
+
+  return html`
+  <section aria-label="카테고리별 뉴스">
+    <div className="scroll-x border-b border-line">
+      <div role="tablist" className="flex min-w-max gap-1">
+        ${TABS.map(t => html`
+          <button key=${t.id} role="tab" aria-selected=${tab === t.id} onClick=${() => switchTab(t.id)}
+            className=${'-mb-px flex items-center gap-2 border-b-2 px-3.5 py-2.5 text-[15px] ' + (tab === t.id ? 'border-ink font-semibold text-ink' : 'border-transparent text-muted hover:text-ink')}>
+            ${t.label}
+            <span className=${'num rounded-full px-1.5 text-xs ' + (tab === t.id ? 'bg-ink text-paper' : 'bg-line text-muted')}>${counts[t.id]}</span>
+          </button>`)}
+      </div>
+    </div>
+
+    <div className="mt-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+      <p className="text-[15px] font-medium">${cur.sub}</p>
+      <p className="text-sm text-muted">${cur.map}</p>
+    </div>
+
+    <div className="mt-3 flex flex-wrap items-center gap-2">
+      <div className="scroll-x -mx-1 flex max-w-full gap-1.5 px-1 pb-1">
+        <${Chip} on=${!tag} onClick=${() => setTag(null)}>전체 태그<//>
+        ${tags.map(t => html`<${Chip} key=${t} on=${tag === t} onClick=${() => setTag(tag === t ? null : t)}>#${t}<//>`)}
+      </div>
+    </div>
+    <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
+      <label className="flex items-center gap-2">
+        <span className="text-muted">출처</span>
+        <select value=${src} onChange=${e => setSrc(e.target.value)} className="rounded-md border border-line bg-surface px-2 py-1.5 text-ink">
+          <option value="all">전체</option>
+          ${srcs.map(s => html`<option key=${s} value=${s}>${SOURCES[s]}</option>`)}
+        </select>
+      </label>
+      <div className="flex overflow-hidden rounded-md border border-line" role="group" aria-label="정렬">
+        <button onClick=${() => setSort('latest')} aria-pressed=${sort === 'latest'} className=${'px-2.5 py-1.5 ' + (sort === 'latest' ? 'bg-ink text-paper' : 'bg-surface text-muted')}>최신순</button>
+        <button onClick=${() => setSort('priority')} aria-pressed=${sort === 'priority'} className=${'border-l border-line px-2.5 py-1.5 ' + (sort === 'priority' ? 'bg-ink text-paper' : 'bg-surface text-muted')}>중요도순</button>
+      </div>
+      <label className="flex cursor-pointer items-center gap-1.5 rounded-md border border-line bg-surface px-2.5 py-1.5">
+        <input type="checkbox" checked=${onlyBM} onChange=${e => setOnlyBM(e.target.checked)} className="accent-current" />
+        <span>북마크만 (${bookmarks.length})</span>
+      </label>
+      <span className="ml-auto text-muted"><span className="num">${list.length}</span>건</span>
+    </div>
+
+    ${list.length
+      ? html`<div className="mt-4 grid gap-3 md:grid-cols-2">
+          ${list.map(a => html`<${Card} key=${a.id} a=${a} marked=${bookmarks.includes(a.id)} onMark=${onMark} activeTag=${tag} onTag=${t => setTag(tag === t ? null : t)} />`)}
+        </div>`
+      : html`<div className="mt-4 rounded-lg border border-dashed border-line bg-surface px-5 py-10 text-center">
+          <p className="font-medium">조건에 맞는 글이 없습니다.</p>
+          <p className="mt-1 text-sm text-muted">${onlyBM ? '이 탭에 북마크한 글이 없습니다. 카드 오른쪽 위 북마크 버튼으로 저장하세요.' : '태그나 출처 필터를 풀거나 검색어를 바꿔 보세요.'}</p>
+          <button onClick=${reset} className="mt-4 rounded-md border border-line px-3 py-1.5 text-sm font-medium hover:border-ink">필터 초기화</button>
+        </div>`}
+  </section>`;
+}
+
+function CalendarPanel() {
+  const [cursor, setCursor] = useState(new Date(NOW.getFullYear(), NOW.getMonth(), 1));
+  const [sel, setSel] = useState(startOfDay(NOW));
+  const y = cursor.getFullYear(), m = cursor.getMonth();
+  const events = useMemo(() => eventsForMonth(y, m), [y, m]);
+  const first = new Date(y, m, 1).getDay();
+  const days = new Date(y, m + 1, 0).getDate();
+  const cells = [...Array(first).fill(null), ...Array.from({ length: days }, (_, i) => new Date(y, m, i + 1))];
+  const selEvents = events.filter(e => sameDay(e.date, sel));
+  const shift = d => setCursor(new Date(y, m + d, 1));
+
+  return html`
+  <section aria-label="HR 일정 달력" className="rounded-lg border border-line bg-surface">
+    <div className="flex items-center justify-between border-b border-line px-4 py-3">
+      <h2 className="text-[15px] font-semibold">HR 일정</h2>
+      <div className="flex items-center gap-1">
+        <button onClick=${() => shift(-1)} aria-label="이전 달" className="rounded-md p-1 text-muted hover:bg-sunk hover:text-ink"><${Icon} name="left" size=${16} /></button>
+        <span className="num w-24 text-center text-sm font-medium">${y}년 ${m + 1}월</span>
+        <button onClick=${() => shift(1)} aria-label="다음 달" className="rounded-md p-1 text-muted hover:bg-sunk hover:text-ink"><${Icon} name="right" size=${16} /></button>
+      </div>
+    </div>
+    <div className="px-3 pt-2">
+      <div className="grid grid-cols-7 text-center text-xs text-muted">
+        ${WD.map((w, i) => html`<div key=${w} className=${'py-1 ' + (i === 0 ? 'text-seal' : '')}>${w}</div>`)}
+      </div>
+      <div className="grid grid-cols-7 gap-y-0.5">
+        ${cells.map((d, i) => {
+          if (!d) return html`<div key=${'e' + i}></div>`;
+          const evs = events.filter(e => sameDay(e.date, d));
+          const isToday = sameDay(d, NOW), isSel = sameDay(d, sel);
+          return html`
+          <button key=${i} onClick=${() => setSel(d)} aria-label=${`${m + 1}월 ${d.getDate()}일, 일정 ${evs.length}건`} aria-pressed=${isSel}
+            className=${'num flex h-11 flex-col items-center justify-start rounded-md pt-1.5 text-sm ' + (isSel ? 'bg-ink text-paper' : isToday ? 'bg-navybg font-semibold text-navy' : 'hover:bg-sunk') + (d.getDay() === 0 && !isSel ? ' text-seal' : '')}>
+            ${d.getDate()}
+            <span className="mt-1 flex gap-0.5">
+              ${[...new Set(evs.map(e => e.type))].slice(0, 3).map(t => html`<span key=${t} className="h-1.5 w-1.5 rounded-full" style=${{ background: isSel ? 'var(--paper)' : EV_TYPE[t].color }}></span>`)}
+            </span>
+          </button>`;
+        })}
+      </div>
+    </div>
+    <div className="mt-2 border-t border-line px-4 py-3">
+      <p className="text-sm font-medium">${sel.getMonth() + 1}월 ${sel.getDate()}일 (${WD[sel.getDay()]})</p>
+      ${selEvents.length
+        ? html`<ul className="mt-2 space-y-2">${selEvents.map((e, k) => html`
+            <li key=${k} className="flex gap-2.5 text-sm">
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full" style=${{ background: EV_TYPE[e.type].color }}></span>
+              <span><span className="font-medium">${e.title}</span><span className="block text-muted">${e.note}</span></span>
+            </li>`)}</ul>`
+        : html`<p className="mt-1 text-sm text-muted">이 날은 등록된 신고·지급 일정이 없습니다.</p>`}
+    </div>
+    <div className="flex flex-wrap gap-x-3 gap-y-1 border-t border-line px-4 py-2.5 text-xs text-muted">
+      ${Object.entries(EV_TYPE).map(([k, v]) => html`<span key=${k} className="inline-flex items-center gap-1"><span className="h-2 w-2 rounded-full" style=${{ background: v.color }}></span>${v.label}</span>`)}
+    </div>
+  </section>`;
+}
+
+function Upcoming() {
+  const today = startOfDay(NOW);
+  // 이번 달부터 3개월치 (연도 경계 자동 처리)
+  const all = [0, 1, 2].flatMap(k => { const d = new Date(NOW.getFullYear(), NOW.getMonth() + k, 1); return eventsForMonth(d.getFullYear(), d.getMonth()); })
+    .filter(e => e.date >= today).slice(0, 8);
+  return html`
+  <section aria-label="다가오는 마감" className="rounded-lg border border-line bg-surface">
+    <h2 className="border-b border-line px-4 py-3 text-[15px] font-semibold">다가오는 마감</h2>
+    <ul>
+      ${all.map((e, k) => {
+        const dd = Math.round((startOfDay(e.date) - today) / 86400000);
+        return html`
+        <li key=${k} className="flex items-center gap-3 border-b border-line px-4 py-2.5 last:border-0">
+          <span className="num w-12 shrink-0 text-center text-sm font-semibold" style=${{ color: dd <= 3 ? 'var(--seal)' : 'var(--muted)' }}>${dd === 0 ? '오늘' : 'D-' + dd}</span>
+          <span className="min-w-0 flex-1 text-sm">
+            <span className="block truncate font-medium">${e.title}</span>
+            <span className="num block text-muted">${e.date.getMonth() + 1}.${e.date.getDate()} (${WD[e.date.getDay()]}) ${EV_TYPE[e.type].label}</span>
+          </span>
+        </li>`;
+      })}
+    </ul>
+  </section>`;
+}
+
+function QuickLinks() {
+  const groups = [
+    { h: '법령·노무', links: [
+      ['고용노동부', 'https://www.moel.go.kr'],
+      ['국가법령정보센터', 'https://www.law.go.kr'],
+      ['최저임금위원회', 'https://www.minimumwage.go.kr'],
+      ['중앙노동위원회', 'https://www.nlrc.go.kr']] },
+    { h: '세무·4대보험', links: [
+      ['국세청', 'https://www.nts.go.kr'],
+      ['홈택스', 'https://www.hometax.go.kr'],
+      ['4대사회보험 정보연계센터', 'https://www.4insure.or.kr'],
+      ['건강보험 EDI', 'https://edi.nhis.or.kr'],
+      ['기획재정부', 'https://www.moef.go.kr']] }
+  ];
+  return html`
+  <section aria-label="바로가기" className="rounded-lg border border-line bg-surface">
+    <h2 className="border-b border-line px-4 py-3 text-[15px] font-semibold">바로가기</h2>
+    <div className="space-y-3 px-4 py-3">
+      ${groups.map(g => html`
+        <div key=${g.h}>
+          <h3 className="text-sm text-muted">${g.h}</h3>
+          <ul className="mt-1">
+            ${g.links.map(([t, u]) => html`<li key=${u}>
+              <a href=${u} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between rounded-md px-1.5 py-1.5 text-[15px] hover:bg-sunk">
+                ${t}<span className="text-muted"><${Icon} name="ext" size=${14} /></span></a></li>`)}
+          </ul>
+        </div>`)}
+    </div>
+  </section>`;
+}
+
+function App() {
+  const [q, setQ] = useState('');
+  const [bookmarks, setBookmarks] = useState(loadBM);
+  const onMark = id => setBookmarks(prev => { const n = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]; saveBM(n); return n; });
+
+  const dayMs = 86400000;
+  const stats = [
+    { label: '최근 24시간 HR 뉴스', note: '전체 탭 기준', value: ARTICLES.filter(a => NOW - a.date < dayMs).length, color: 'var(--ink)' },
+    { label: '이번 주 법령·시행령', note: '개정, 입법예고, 고시', value: ARTICLES.filter(a => a.kind === 'law' && NOW - a.date < 7 * dayMs).length, color: 'var(--ledger)' },
+    { label: '급여·통상임금·4대보험 이슈', note: '최근 7일', value: ARTICLES.filter(a => NOW - a.date < 7 * dayMs && a.tags.some(t => HOT_TAGS.includes(t))).length, color: 'var(--seal)' }
+  ];
+  const hot = ARTICLES.filter(a => a.urgent).sort((x, y) => y.date - x.date);
+
+  return html`
+  <${React.Fragment}>
+    <${Header} q=${q} setQ=${setQ} stats=${stats} />
+    <main className="mx-auto max-w-[1360px] px-4 pb-12 pt-5 lg:px-6">
+      <p className="mb-4 rounded-md border border-line bg-surface px-3 py-2 text-sm text-muted">
+        지금 보이는 목록은 화면 구성을 위한 예시 데이터입니다. 수집 파이프라인을 연결하면 같은 형식의 실제 기사로 바뀝니다.
+      </p>
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)]">
+        <${HotRoller} items=${hot} bookmarks=${bookmarks} onMark=${onMark} />
+        <${RateBoard} />
+      </div>
+      <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_340px]">
+        <${Feed} q=${q} bookmarks=${bookmarks} onMark=${onMark} />
+        <aside className="space-y-4">
+          <${CalendarPanel} />
+          <${Upcoming} />
+          <${QuickLinks} />
+        </aside>
+      </div>
+      <footer className="mt-10 border-t border-line pt-4 text-sm text-muted">
+        급여일은 매월 ${PAY_DAY}일, 신고·제출 기한이 주말·공휴일이면 다음 영업일로 이동합니다. 양력 고정 공휴일은 반영돼 있고, 설·추석·대체공휴일은 HOLIDAYS에, 회사별 일정은 rawEvents()에 추가하세요.
+      </footer>
+    </main>
+  <//>`;
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(html`<${App} />`);
+</script>
+</body>
+</html>
