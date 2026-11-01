@@ -1,5 +1,952 @@
 [
  {
+  "id": "c35b8d2add8cadc9",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "law",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "포스코노조, 7일부터 임금협상 합의안 조합원 투표 시행",
+  "summary": "서울파이낸스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KQWxqTS1GQmxZaWx5SUM3S1FaZU5FdVR4WS03eXJ5RnZaYk1IbGR3RmtFOTdEZnhaOEQxTERhTHh2OHd1Mjdfb250bDFpMlltOUx0Q0NBRzNsU1VjUDZwRHRYeWxaaFBlSVE?oc=5",
+  "date": "2026-11-01T10:10:30+09:00"
+ },
+ {
+  "id": "e49558cbd996de80",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "파업 겪은 포스코, 임금협상 타결 문턱",
+  "summary": "동행미디어 시대 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lU3F0MW94QTFMUjJrV21TSkZkYmRlMk9BaHRkaEZfUDJpT2pOMFk5dVl1NFJQeUNaaXN1MmNPV29IdG1HWDF0WS1lcDZUNkdwYVdKemNhcjIwZXVwalE?oc=5",
+  "date": "2026-11-01T10:06:49+09:00"
+ },
+ {
+  "id": "f2d11bc40ee3ddbd",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "부하 직원에 “애는 남편한테 보라 해”…법원 “직장 내 괴롭힘”",
+  "summary": "KBS 뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aRkZUM3loUXJWRkp3Ymp0ZnJtSjZ3eGxCVTBvX3BIV2dMNFpUSXdfYzVZb253R21rT3BYclBDZXhLbjhhbGN5cWZVYTBLNjF0ME0wTUFjc3c2bUk?oc=5",
+  "date": "2026-11-01T09:56:00+09:00"
+ },
+ {
+  "id": "4d9d6799a25a4429",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": true,
+  "tags": [
+   "급여"
+  ],
+  "title": "하이퐁 산업단지에 있는 100개 기업이 2027년에 임금을 인상할 것으로 예상된다.",
+  "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcWNfSkVLMXg5TDVBeTZ1SUdGNzl5alF1ZXhJYlhXOWptc3dNd0VFdDNRZVBtZUJjbUR4TWlMX0E1RkNteUJ4RnJhYkE2OE13RXRienBvVnlnbm1HRm5DVHZGczBpM0lHQklLa0dIRFRUSFhERjlzQXY0SVNfTDk0SWgwY0J5TzUxZkVoSmg0aU9SX3paVDdidXlXeVlnZHJvaWVVTA?oc=5",
+  "date": "2026-11-01T09:42:58+09:00"
+ },
+ {
+  "id": "819e9d74c70e45b6",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "정상 출근했는데 \"늦게 왔네?\"…法 \"직내괴 감봉 처분 합당\"",
+  "summary": "이데일리 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOX0tKWUZ2aHE5M3Y4UmhYdUNCci1rUUNMdTZUZEVnMVFDSHpjQnBRWDJYbDl4TV92bUFudTVUWlVkTThJVTJyYzJCQUxWSmI1RU9JbW1MT0o4NmdlSnpBNGd0bE9Tc1FFb1NDRk85MzMzVW11SXJvWkVmN0I1UkNqVQ?oc=5",
+  "date": "2026-11-01T09:35:51+09:00"
+ },
+ {
+  "id": "00a71219445b66cc",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "국민연금"
+  ],
+  "title": "국민연금 수급자 806만명 돌파…66%는 월 60만원 미만",
+  "summary": "한국사회복지저널 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zVE9ZTnNMTmlxV09sVTJsTWh3N09kTVB6UUY2NFM4WU1HV09rNFl6Y19EcnctT3d0OGFQbWxaclVZUkdWR2tLdnBCcnliQTNEeThNTmRteWM4eGVvRmNZWTE0VEZHc0kwWGRR?oc=5",
+  "date": "2026-11-01T09:22:36+09:00"
+ },
+ {
+  "id": "5db18864785abb52",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "연말정산"
+  ],
+  "title": "2027 연말정산, 자녀 카드공제 한도 최대 100만원 확대",
+  "summary": "비건뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGcTlRcDFzVjlfWW1DR2ZkNTVHOWNqUU5sLXgzYlJxQXhHdGZNdDh2WG1Yd1FzcDdFOWNwZ3EyRXVLRk5yekF6QUZ2NW02RmE0MUxMczBCYjE1MF9VRHNpa3BBNWdsdw?oc=5",
+  "date": "2026-11-01T09:20:30+09:00"
+ },
+ {
+  "id": "da04fe08e130079b",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "페이엔진, AI로 급여명세서 자동 검산해 오류 줄인다 [서울AI허브 2027]",
+  "summary": "IT조선 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZbzBZUXRvczJJbDNQTjZkN0xQMUZfX0FaX3hYaGdhVFo4SDRxdzY1d1R1TVdYMXkyY0dyTHp5M3pYeTZ4WV9jc09UVlFwRkdJVVFlU3ZuTmZXM3NVZ3d2WGd6NnV0X2hqb0stSmM0QW_SAXRBVV95cUxNVndkS3YxNy1Yeld6RFFFQl91S2JidnV6NllvQnJPTi1UTFQ1bjhzczdwUmt0NlVoVGFVMTVjUFQ0WXhxUEhCSHdDUklpSmp1MWVxb0NrUUJVWUJMNHVJLWhCQVVkWHFwUUNLQ1ljRk9kdzVhLQ?oc=5",
+  "date": "2026-11-01T09:15:00+09:00"
+ },
+ {
+  "id": "ebd87e9d2bf08659",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "포스코 노조, 임금협상 잠정합의…7일 찬반투표",
+  "summary": "서울경제TV 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwWFBJV3M3RF81UGdXaUR6QU1fSldnTkY1cGRTSlYzTWxDcUFzaHNEeS1TY3ZldmxZemh5MXFvTTlFamZ4V0R3Nkh0OXBhM3UtUS1la01vVzRnTy1FVS1WSXd3Z3Q?oc=5",
+  "date": "2026-11-01T09:09:47+09:00"
+ },
+ {
+  "id": "eaebd0b3b57d0c63",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "판례"
+  ],
+  "title": "[판결] “늦게 왔네, 몇 시에 왔어?” 상사 닦달도 ‘직장 내 괴롭힘’",
+  "summary": "법률신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5OEt1V1d5ZldmY0FnU29pQWQzR2pJZEprWkVMZ2Qtazg2aTJYQjJhVXZuWFZLV1Q3bk1kQ0hQZWoxMW5wcDZtNXNVWjJFZ0lUMEI3bWpFanUxM2g5WkhuRUNScHA3eC0tNUFwWFpR0gFyQVVfeXFMT2FkeVI0ZlB0UUFHYmNDN2dvTTg2QS00WDVXUmtyVmtjU2pfSHgwLVJSOXE5dEQ2NXk4SkJRcTJESkZhNE9IelAteW1GSzZReXE0cnVNX1BCelV4elFZSzQ2SWNHbTBhLVZYTmFKbDFfWXJn?oc=5",
+  "date": "2026-11-01T09:05:00+09:00"
+ },
+ {
+  "id": "be56e520bc764463",
+  "tab": "erir",
+  "domain": "IR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여",
+   "단체교섭"
+  ],
+  "title": "포스코노조, 7일 조합원 대상 임금교섭 잠정 합의안 찬반투표",
+  "summary": "연합뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwTHlRTUpSZGFlSzJPUEFVdEo2aFBuLU9JSGtWU3NKejdJNFNKbUlYaHY4RHNhRUNXT2ZVOEJyQXVrYkdiQU9qWVlaQ2NHM3RyMFkyNi1aaTNlZEnSAWBBVV95cUxPbUhZQUp2YlNoXzlUdVZDVHVFWXdLYUhfeTd0VDFER24xaURzNHExMXlRZldhd1ktZ2ZNcUs3RklCM3Y5a0tSN1drQUxfWXBJdHZmeG8zOTZMbUtQSDJtX3Q?oc=5",
+  "date": "2026-11-01T09:01:35+09:00"
+ },
+ {
+  "id": "9a1d9fbbf99c6b07",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "부하 직원에 \"아이는 남편에게 보라 해\"…법원 '괴롭힘' 인정",
+  "summary": "연합뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4NnBGVVhOTW5RaldUcVp0Vi1kUm5fbDY5endrQnlkZXVFODVRYXc5SGx5N3A4UUp6RFJSdGZSUldUT3RBUFJrUkJTV3ZEeE1lUHl5T3EtR3RONWvSAWBBVV95cUxPUGxvZWNWRFEtdGs0QUwzblpFOFM5dG4wbzFuTGVHMEpZWHVLcjk3Slh0bWNTWTUtYjBqM1RVcURtMzZIOFQ2YWFrd2VaOUwtVFNlVGdtS0x3TV9Ka1JLMlQ?oc=5",
+  "date": "2026-11-01T09:00:07+09:00"
+ },
+ {
+  "id": "fa7d548037df1fea",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "\"퇴직연금에 국채 담고 꿀잠?\"…노후자금 넣기 전 따져볼 점 [김연지의 연금빌드업]",
+  "summary": "한국경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2UF96dFBzWDhkWmVEVWtwbm11MVR4QzFWSlBmQU1oczYzNEFDcE5qdXRCcGZsNWN2NDVvX25VM2MtTi0wTms4Z0xxNXpLNE9SdEVwNEJtU2ZfZw?oc=5",
+  "date": "2026-11-01T09:00:02+09:00"
+ },
+ {
+  "id": "76bddd295f4b6bb9",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "돌봄 연가 낸 직원에 \"남편이 보라 해\"…법원 \"직장 내 괴롭힘\"",
+  "summary": "더팩트 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mOGhnSGxxME9HVS13YUVUd01Xd1lfN3VwOFdKSEUyRFRMREZrUFF6SVpudnRYemtSR00waXI5bWhwc0ZMdXB5dEpSU0JMSWNmcllaUzhB0gFQQVVfeXFMTVJ6cWduR2NkYUJsVVhYdDhiX2VNVFM1dGpUOXhfakFUY1VST3luZXd1NHRETU9rS244OVM2TFM2LWpQNFlzX2pidUJBZGtNMXQ?oc=5",
+  "date": "2026-11-01T09:00:02+09:00"
+ },
+ {
+  "id": "370cbd23a886f33a",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"늦게 왔네?\" 출근 시간 물은 상사… 법원 \"직장 내 괴롭힘\"",
+  "summary": "아시아경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oYS15dXo2U0ppZmJlTE4zUnZDY3VuUnQydkUxR0Rfbk95MWpZVVBKc3g3YnRIOEtNaGp3b1BpNGszQlFjNFE0cDhvdzl0V21uYXo4a1ZZVThWYldld2lqaQ?oc=5",
+  "date": "2026-11-01T09:00:00+09:00"
+ },
+ {
+  "id": "b3ad8df84b42f281",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "부하 직원에 “자녀는 남편에게 보라고 해”…法 “직장 내 괴롭힘”",
+  "summary": "이투데이 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UUnFSMkFBYkNnTGxtSXB6ZFFhMF94NEFWcWU1QkNvS3F2Qk91bW5mNmxCckZRUk51Q3Y2enQtcE5lYXFNdHQ4WHladGh2ZEFLNWVzYQ?oc=5",
+  "date": "2026-11-01T09:00:00+09:00"
+ },
+ {
+  "id": "bd65a7d0a68e4b9c",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"애 남편한테 보라고 해\" 부하 괴롭힌 구청 과장…法 \"감봉 정당\"",
+  "summary": "뉴시스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxdHV4VkZDY21HcmxUOVpWTGRHU3g2N2N3akZ5OTlEanlCOXcxaThFQWh2bTh1MUh5VnhSQldaVXZ1cHV3VGJJUE5HeFh4cll6WWtsRi1nSlljeHBPa2pOaNIBeEFVX3lxTFBnMmhsWmZoOGNOT2dGVWhRdVVaSWVGSVA1R1QzYnF0cmNFWDJORHEzSWhzUmlDZE8xazRxbkVCSUlMM0NDamVOVDFZTzFZUlVYcmVEcWRzdkJTeGo4RHl1bEdES3FKeXZJV2wzWHNSLWhYT29VV19JVg?oc=5",
+  "date": "2026-11-01T09:00:00+09:00"
+ },
+ {
+  "id": "8a5f92da75e74129",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "“나한테 설명하려고 하지 마”… 구청 간부 감봉에 법원 “정당”",
+  "summary": "Chosunbiz 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbXpWZDNZVHEtMTNVZ2xJbWRQSnk3M2VSMTAxTHBVNElrLXhMVDE1Ti16bS1vMXo1cWo3OVhwLVZ2OGh3cHdocDlYS0VxcHphX0F0Wk5vZU5pckJmZThSYlU4Szh6by1sRHBOWG1vbXFVQzRKblJrR0tUbXJlZV8xQU14c9IBlwFBVV95cUxPdl9xay1jYl9BM1BMUW56UmpKdXFlWUFDRzMtNUpHM211dW42YWdNX2NNSjlMTDhpZTU2U2QxaWFhd21QdkFTQlhHRmk3MnVOVEptdnZ3TF81Q1dUQk9rVm5QcFI5QVlFRVc2LTZ1RWdtczMyLXhWVmEzZU96eUJVcGNVS0o4eGZKRFI0MGZGTW9XVk1SMTln?oc=5",
+  "date": "2026-11-01T09:00:00+09:00"
+ },
+ {
+  "id": "a26648f4e42740de",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"남편에게 보라고 해\" 육아 연가 막은 공무원…法 \"감봉 정당\"",
+  "summary": "뉴스1 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOTW44eDRhUHVOa3VDNzJVWjNQSFQyMFhDeHJiQXp5cnVfYmN1bXVqSkxwelFpTlRRcHFBR0p6ZHdzXzVxaWN4ZDBrWGNtcWRNMU1FbUVqTzI0dnRGN1oyblpJelE?oc=5",
+  "date": "2026-11-01T09:00:00+09:00"
+ },
+ {
+  "id": "a6a939f0d6a22ab0",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "정기예금이란 무엇이며 어떻게 활용할 수 있는지 완전 해설",
+  "summary": "스페셜타임스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE44ZnNCdExlMDAza2N6N09LdVBxMk1PdjJNdWxBdXFlbVlieWNpTTVtNW9iSzRZOUdmd2hpS1JsSGMzRWlJY216REZkdDJDMjJoRkRzbGhENGgtQXhQaWE4NmZfZ1pXMmdQUlEwNFpFNm9tdw?oc=5",
+  "date": "2026-11-01T08:17:39+09:00"
+ },
+ {
+  "id": "deeddcf7529f348d",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "정부, 2030 퇴직연금 의무화 시동…영세기업 부담·낮은 수익률 등 과제 산적",
+  "summary": "헤럴드경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlOWp6ems0TmptTjhnNVdsZFFKWHd6d2dyWVREZUM1UWJ4cDdYU1drUGpGXy1ZRmc2bXd3WEtuY0RLZEVqYTF1aGsxdTJtLWM1cGFDQWNR?oc=5",
+  "date": "2026-11-01T08:00:00+09:00"
+ },
+ {
+  "id": "b1b4de24cdf10f7e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "조현 장관, G20 외교장관회의(10.30-31, 애틀랜타) 참석",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYjVIZ08wNjdWMlhJTzk5VnZFOHl3QzR3cVdIMDAzNmVoTTlRb2FLUHdXWHdlOGFCckpNQkVTMlVGUDNzY1NndmtTSW9TaU1sT2RzOV9ndDRzTUxEa2ZjMm9nQVRCMHRYQWExc1MyRHpBbjEzejBXOGFQX2Nfb29CR2R3WFNtSXg3ZWcwVmY0TF9HeEZV?oc=5",
+  "date": "2026-11-01T07:50:37+09:00"
+ },
+ {
+  "id": "dcce5f2b2b79f1aa",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "계약이행 능력이 없는 기업, 진입부터 차단! - 카드/한컷 | 멀티미디어",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ULVFQLTZtdHhqcG82MjlZMXZqNHJHcTE3eGRWMmo0WXM2cFg5Y1R3MlJhc3N6RnN2ejdmbTF3MGhZOXpaNXExWnJtSEN3dGpIVnZ4NFcyTHBTVnhwMlJodzVocUN1a0M2UU5pNlNR?oc=5",
+  "date": "2026-11-01T07:44:14+09:00"
+ },
+ {
+  "id": "c032d38daf0c23d9",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "서울 강동구, 2027년 생활임금 시급 12,757원 확정",
+  "summary": "수도권지역뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85b3dIWDd3aHU4OUg4bFNoY1lIRXBWYi1kY2xWajBiMVUzYzJZaXZHZEZ5TnlLOGJtNXY1eXZEVEFvbXoyaFVlYk50dFFVajdkRVFYdUVRUVhIZTlhdG1iZm13TTdrSFJD?oc=5",
+  "date": "2026-11-01T07:22:17+09:00"
+ },
+ {
+  "id": "86e4b57a5503142f",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "野, 사회복지 종사자 대체인력 500명 이상 확보 촉구…퇴직연금 제도 개선도 요구",
+  "summary": "데일리메디팜 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13TmhmYlVEWUJFR0tBT0ZvZjQ3akg4S3ViNi1ON0RqLUZyY3U1Rjl4Sm1KSGdheFhjVWw5X0dVMml2WkVsWGRwM2NVbkhXSkp2WS1MZk1RRGdTajFTQklrbzA1dWJEanI0OExpM0RR?oc=5",
+  "date": "2026-11-01T07:15:21+09:00"
+ },
+ {
+  "id": "35cf7207a767963f",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "퇴직연금 판 키우는 정부, 증권사엔 반쪽짜리 기회?",
+  "summary": "데일리안 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNTGlIMnpnUDhVVHRURFQyS3hYOUs4Q1Z2RG1oVkx6VjVXek0yU2ZORDZER0lKUTE2eWxZWXVoY0ZYVmxDT2ZMeXpLbTBmZWZDaUVWNkR5V29KRnFrQ0x3MFQwbmRyQUFWMVRXSVVzY1NxOC1oY3N2YkI5Tmo0SHhmM0RKNHJRRnl5a293UW5udlB6NWN6Wk1MNm1oYjM0QUJ1NjJsSjJqek1BODdJYklkbmY4Sy0ySWtTemNSa2dsT216QURRQ3VfaS1lNGdwUTdDZW4tZHJrb2Zvd29PNmhEUVlxNVNQOGY5TF96cWduLXhDb2t0TzBnRHh6b3NsUzNKWTJrSFcwS01CRmFuODh1TURza1ZySEpN?oc=5",
+  "date": "2026-11-01T07:02:00+09:00"
+ },
+ {
+  "id": "2e65428f24e5b308",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "'퇴직금 체불' 8천억에 연금 의무화…영세기업·사각지대 보완은 '과제'",
+  "summary": "뉴시스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jTnR4dFBVZ1YzWGhYU2x6b0RkZmdUbGlvdE9sbnQ5bGRVSmhDNU83cy1qV1N4enR0N2c0ZTVKTzZ1MmdlMExJY0JFVVgwSy1fa0ZmZWF2ZmlKNFVqZ3Y5cTF3NzctVUMtWlZTNnY0WWF4ZklCSEZ4cdIBeEFVX3lxTE1jTnR4dFBVZ1YzWGhYU2x6b0RkZmdUbGlvdE9sbnQ5bGRVSmhDNU83cy1qV1N4enR0N2c0ZTVKTzZ1MmdlMExJY0JFVVgwSy1fa0ZmZWF2ZmlKNFVqZ3Y5cTF3NzctVUMtWlZTNnY0WWF4ZklCSEZ4cQ?oc=5",
+  "date": "2026-11-01T07:01:00+09:00"
+ },
+ {
+  "id": "41954dd13cef4d9e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"사장 멱살 잡은 직원을 당일 해고했다가\"…벌금형 받은 이유 [사장님 고충백서]",
+  "summary": "한국경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40UU84Vm5tM2dMQlFlOHZRVWo5V2NkekJsalM0VUpaZ2Vrci1GcDdZODZ0Wlk0ZURlSnNwOHZXN0szeVh6TzhMWi1SZHkzanhYbngwOXlVZl9vUQ?oc=5",
+  "date": "2026-11-01T07:00:01+09:00"
+ },
+ {
+  "id": "c53dd0a48b19041e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "한국-멕시코 외교장관 회담(10.31.) 결과",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOFNrR2h6dVJQUkhwODlMSUlVcnZTa2hLVXVZVTlfVjhXdlVEdlhWWmVOaUFqdURxNktfTDdjdkRuM1FUZHJaLXVPYkM1T0ZtdWZTWmtqS1FkZzM1T3lqaFlBQTJWYW0xbG0wck1Nb2NoZ1VobEZCODJOWDcwZC0ySTJ5M1NmaTdkUXBaX3dYWjJSdElnYUJkRUFaTWVQcFgzT0xjVlJuYmxJWUpxMEh6UHhibzJkUkFneTBkRkdsamw4cS1BN2k1RW5qbkVmcFVFU0hKb2xTZ0ZxQ3VoV00zQjRFaU1qRkRrMlprR2JwSQ?oc=5",
+  "date": "2026-11-01T06:47:48+09:00"
+ },
+ {
+  "id": "61c3f4f05ccd59cd",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "ETF 순자산, 증시조정에 국내주식형 비중 줄고 채권형 늘었다",
+  "summary": "연합뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyYVRVcnJpUzlhWFpuckpTejdacFNDbGtOSGlzUnlIb2dpWV9kQVdPcXpzVTljSTBOOVp4QXRBMnAzc2FfcXRvZ0pvQkNsaTZsOGJkMjM1eXNrTUZBb2FlTNIBYEFVX3lxTFAyYVRVcnJpUzlhWFpuckpTejdacFNDbGtOSGlzUnlIb2dpWV9kQVdPcXpzVTljSTBOOVp4QXRBMnAzc2FfcXRvZ0pvQkNsaTZsOGJkMjM1eXNrTUZBb2FlTA?oc=5",
+  "date": "2026-11-01T06:10:00+09:00"
+ },
+ {
+  "id": "0f0e8c56545acce0",
+  "tab": "hrbp",
+  "domain": "IR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "단체교섭"
+  ],
+  "title": "호황에도 갈등은 깊었다…조선 3사 임단협, 긴 줄다리기 끝 `마침표` [헤비급브리핑]",
+  "summary": "디지털데일리 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZVW93dzFHZ1hmWkY2OXZkQkdqNWRjSmlJcDI3N05wNGd0ZDhtdndVVUpmU19vRXJrTnZReWpIZmozMnkzbUxqcjd6bmthSmRadm9ZekVBcHQ3U1lteGltcnFUc28?oc=5",
+  "date": "2026-11-01T06:00:00+09:00"
+ },
+ {
+  "id": "32bfe20f9cf0e2a9",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "mw",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "[칼럼] ‘원가+적정 이윤’ 농산물 가격 보장제, 왜 위험천만한 발상인가",
+  "summary": "팜인사이트 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82MjJuLS1PM21iejJzXzNmX3RMLU85ck1lai1qVU5OUFRtRzZNX0dLOTNGTFNKUFhhVm84aXVfSlc5bWRfYUJvbFRjRGpUY3pFa2pKV0l1TmlMX080d2EyTzZfYWlyVngyS2tsTHhB?oc=5",
+  "date": "2026-11-01T03:57:00+09:00"
+ },
+ {
+  "id": "a1ccfa8991d76a11",
+  "tab": "talent",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "독일 내 노동 이민 촉진에 있어 베트남 공동체의 역할을 강화합니다.",
+  "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZE1MMHpaVWN5MlFlZUV6d29HMHZHMkthdHZ0UWlkQndOek5zMkdHYkRvcC1LLVVKdk04Uk8zUXZWNUZmTHhLaEVJV1lsYVpyeUowYmVuWl91OGptUy1yTmxNYkJYTnZFaTVzWlpmbkc0VF9LMzdmZGY3VFZFbEYzY2hsUXBiM2FmcUpfUVJKZ3JwUW8zb2haSmt5WUdmRG0ycWF1WWNsNm4?oc=5",
+  "date": "2026-10-31T23:48:04+09:00"
+ },
+ {
+  "id": "6398d102c0181842",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "포스코 임금협상 잠정 합의…장기 교섭 마무리",
+  "summary": "남도일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPMWJydkRCN1djMnRTQ09BeHZNdkl6SXhnQ2N6YWp4VXM4dG5KSEdQSG1pcDJuZ1NqUFZiRXdsMmFBSXVqc2RkRzRzdzNuemZqNTBrUktYUnZSVmNuU0hPd3BCdVFjbEUtWFdNa9IBcEFVX3lxTE1iTVhtOFRncW5KRHlBQTVlZ1lGOWx5LTFrcjN1WmNGZXN0VEhwQnoyVjBHUnNnci1FV19XS2NxV0ZhQ0U5NHB6OU5wZjFPQlk4WFdxcUdGOXhOM2Q3bmNqRWxtU2RGYkRtaXlpaHJiUFc?oc=5",
+  "date": "2026-10-31T23:19:00+09:00"
+ },
+ {
+  "id": "28c2ba885a03bf2c",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "2027년 전남광주 생활임금 시급 1만3,440원",
+  "summary": "KBS 뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50WXpQUFFmRlZDWTlEYjJ2NWhSOE80RlpZQUhHdE9uQWQwSGdBS1pydDZtdFBVa3l2WXU4dE1kZll2dFpYLUpnMDlrdjN3NUFWTlQ2N19ZVkxyQ2M?oc=5",
+  "date": "2026-10-31T21:53:00+09:00"
+ },
+ {
+  "id": "6405bb80c0bf1479",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "퇴직금 사외적립 2030년 전면 의무화…중소기업 지원 병행",
+  "summary": "https://www.seoulilbo.co.kr/ 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52N1dtYjJjdUtaakJUVXhRWFQwMVFTOXpEUFZfSEVKeUg3MHY3U3JPaDBaeDZWZFNpR0lZbHNRVy1NTG85all5cGdHOUhEODFrYk1wVlpsaVE5NXJFUURkMk9VSHpXdjBPTFYzUFBB?oc=5",
+  "date": "2026-10-31T21:31:34+09:00"
+ },
+ {
+  "id": "99e0ad1012778b98",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "“배우자 떠난 것도 서러운데 연금까지”…누구는 70% 깎이고 누구는 전액 받는다",
+  "summary": "서울경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rMFR1SVUyZzg4UEhZZ0p0Ujg1QjVwSFFMNFEyYWRyckJEaTFQc29PcERiVXE4cEoyZU14bk0xUHh3ZjhrNnJ5eTJzTlJNclc4ZlHSAVNBVV95cUxNYmh2MFlxd1VpSmtqWnpvVXVna0lPU2lUVEd3S2Z5VjlCNUVDQmhfNUgwQlh3cHg3UTM3am0tdlllMlRfeEpfNUFjVVBXMUxneDE0UQ?oc=5",
+  "date": "2026-10-31T20:52:11+09:00"
+ },
+ {
+  "id": "ca55d66a410888f8",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "아이 양육이 어렵지 않도록, 고립은둔 청년에 나아갈 힘이 되도록, 2027년 핵심 청년 예산 발표",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV2txZ0hkMnRHenRkZjRYa3d5MnJkWlZuM1RIQlRqbGQzOEsyQnB2S182dkJiRnBhd0N4MDJLZllkRTl2WHc5RXZZMW5qQVRqLVI0ZjYyTk95aFJuU1Vyb0FxR3hLbWI5MEtObzg4NkEtQU56eEw1VUtBbXpPeUpGLWt5YWtSX0JlVFdn?oc=5",
+  "date": "2026-10-31T20:26:58+09:00"
+ },
+ {
+  "id": "3fe133a762937a7c",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "한-독일 외교장관회담(10.30.) 결과",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMHRwV1RNeTFvY2F1RG9DU2k5a09wejRfbUN3SUROSEF6T1BjRU5GMDBoRnV6R0sxZFBmN08yRmZlcE5VbkxybThBeWQyQ2Qyc0w3dmszcmFlQ2xhbFZPV0dZWnhUeWFrOVVLaENfZzQ4OS1SZTVzazdqLUlyc1g3TXREdWxQSGtid3VPbGxNdWJqUQ?oc=5",
+  "date": "2026-10-31T20:21:17+09:00"
+ },
+ {
+  "id": "438ea1a9c70d57b8",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"태움 당하면 어떻게 할 거야?\" 간호학과 학생들의 놀라운 답변",
+  "summary": "OhmyNews 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13R2laOUZDTWJpdjluRl9qRWdPTmo3ZGd3VlZVRi1DdVZoNWkzNXBmbm5McHQ3MVUtblBUSklQdEItVVRaZnNFazc0NjIwNUo2OFpYVHdNcWdMc01qVE84VEt1Nm5Na2l1enRrX0RSSVhidG4w?oc=5",
+  "date": "2026-10-31T19:20:00+09:00"
+ },
+ {
+  "id": "1ac7b8377f896f97",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "이재명 대통령, 청송군·영양군 현장 방문 및 주민 간담회 관련 김성완 대변인 서면 브리핑",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0MwOTVaUEpwQkI1T1RXamt5SWJVZjh5cG9lUUJtdWxKWHlXMG9tVnl5MVdwN3M4aEdNT2pGa3N4N1dEQkNwZTR1aktjVXRaYTRQLWY5ZzJqNUxWUFFYY2tUakF0ejZ6cWhLWGl0a1YyRXVSa1I2ZEJ3WEpxVmp2MW1iMGYzT1lrS3dub2FqSWc?oc=5",
+  "date": "2026-10-31T19:19:29+09:00"
+ },
+ {
+  "id": "1fcfbc70f839661e",
+  "tab": "erir",
+  "domain": "IR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "단체교섭"
+  ],
+  "title": "[포스코 임단협⑮] 무기한 파업 앞두고 잠정 합의…140일 교섭 마침표",
+  "summary": "페로타임즈 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mc3FJNTAzaW9jVEMtTUhoTHhNTVpZTklJSk5Ic1BBQ3ZUb3djQ1lkX2lHRzBlbm5YblF4X1B3MGF0VkJtSjZxVFZDZHB3bjRfd2hpU0lwRE9DdVNMQ2pMRGdfZzIyVDB1cHhZWA?oc=5",
+  "date": "2026-10-31T18:23:32+09:00"
+ },
+ {
+  "id": "e2dd988a2431e4a4",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "아이 돌봄 연가 쓰려는데 “남편에게 보라 해”…법원의 판단은 “직장 내 괴롭힘”",
+  "summary": "헤럴드경제 미주판 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wT3pYTDM2QzRyU3VEU2o5aGJFeTdCUnlhdV92emJQOUtWRTN6bTNISlkxeE9jZGFMMWh5UFdSLTM4MV90V0dWR0ZDMVd0QURoazJMLXp6VUhoVV9mX1Nocw?oc=5",
+  "date": "2026-10-31T17:41:00+09:00"
+ },
+ {
+  "id": "85a154900fc41728",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "2026년 11월 이달의 6.25전쟁영웅 선정",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mN3BEcGlmQ2xuYU1wd1poQzd5SzlDTTJDdUppVFQ3QVNNT1hEUzVCNEJhTXNHTFhCaDNicWk4YTcxTVhTTnhuQmQyZGdBSElBTVd1UkRwYkFFSnh1RXo1SEhGbENfLW1xR1Y1eWxkaF8xRXh0?oc=5",
+  "date": "2026-10-31T17:24:58+09:00"
+ },
+ {
+  "id": "ebd8a632d3f0396f",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "비과세"
+  ],
+  "title": "복리후생비 한도…세무 처리와 비과세 기준 안내",
+  "summary": "스페셜타임스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtX2NZVkpKZkZIcHY2YWpSZ2dqUnQtNzJ4RXA4WlZhTzdPNWhOMkpjc2NDZTcyZmFjWDdaZldCdEpqdE10dXZMdkhMb3J5ZmlCQVZjVTFyODBBWUJQbmpLRFlQZ0M2ejNqcWUzb2RtMFhqaTQ?oc=5",
+  "date": "2026-10-31T16:19:04+09:00"
+ },
+ {
+  "id": "2d4ec0e8e4ad9cea",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "포스코 노사, 140일 만에 임금협상 잠정 합의 도출로 파업 위기 넘겨",
+  "summary": "국제뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aY2pxcklHaVhSaWthOE1lZGhmZnVWTnNkOTh6NkdXOXNPT3pHM255dzU3cm5KbHI2Ml95SVV1OTV4SVFEWEVvLU9oMlIwSXdvM1dseGQ1dTBBQkFGNUFtS3RQLUVnakVLVUZYei1n?oc=5",
+  "date": "2026-10-31T16:13:16+09:00"
+ },
+ {
+  "id": "f3a7a11fd01af67e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "해외 명품부터 K-뷰티까지…국경 없는 '위조상품' 주의보",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUl6SXlEQnRHUlY5RDZIV0lJWmdRTHlaY0x0eFpKdkJ1Nk16YXZBODFYWjJpQXBNMFU3Nk9WTzhDQk1RYmlNRW1JQldXX2dGd0NIVHczTE1ZeUZWVDdyajh0RFFROUZZaXRuVFJ5ODBTTXg4UzFxdU1nTjkwaUU4eVNNMUVHeVU?oc=5",
+  "date": "2026-10-31T15:33:45+09:00"
+ },
+ {
+  "id": "c333737208923226",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "어기구 의원, “외국인 퇴직금 보험료 1,287건 연체… 상습 연체에 조치 누락도”",
+  "summary": "뉴스데일리 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1VTBwZ0JweVJZQnpyUkVzcEpGbWVNSE1pLVV3cmxmMUdSY1RFMXJlUlhpSUp1V0F5WWF5WXpRZlN2WjRVYUUyUU5oc0JsZHBOYlMzY1h1ZTNYbXdfdS10WmNQNlRhTGxzVC13?oc=5",
+  "date": "2026-10-31T15:29:12+09:00"
+ },
+ {
+  "id": "432e295cf49af223",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "일상을 풍요롭게 하는 우리 동네 '공유재산'",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbjI0Ml9oeDFpd21hdnJaVEtuRDJRaEdZUEdHTXZRNlZiMEdsZVRScWllZXdQRUNHLWhibHZqTExnZlg4VDJKa0ZSdnlibXJISXBtaHFEd1FEUURjaVJBcTB2WXJBbDZtbXdCd1luTHZOLU80YVgza1JHVXhmaVU1RDFpZTRDb2c?oc=5",
+  "date": "2026-10-31T15:00:36+09:00"
+ },
+ {
+  "id": "1cf05a48f8b1495b",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "2027년부터 최저 연금액이 변경될까요?",
+  "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBobE9wZWdUVEtsZUFFc0d5akczU29IVG9QQXA1WVM2OTFnMlFvbXdJbERDUmloYm95bWsyX0JnQ1B4YjM5WEdLdWwyNmlROVhQRlFqVHRkRXBPUWRuSTBQUndnNlF0OEJzbVNCNW5vd3RIcGFRUWNxOTU4TVI?oc=5",
+  "date": "2026-10-31T14:53:03+09:00"
+ },
+ {
+  "id": "6597fd5bf57f648f",
+  "tab": "talent",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "'에페' 일부 의원에 공급 개시…약국은 처방 나와도 속수무책",
+  "summary": "데일리팜 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pTjFiVGlXOVl4cEZMNGNkVHBaRXYtOTZiOVVfR28wUlVsbFhORmEyOVh5TkFIUElyT3hBMUZPUjZybmxMdlhfa0cxUElkbVFZV0htaF93?oc=5",
+  "date": "2026-10-31T14:00:29+09:00"
+ },
+ {
+  "id": "ba3f7ab60de0821a",
+  "tab": "hrbp",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "사주보다 저렴한 자문료, 전문가의 가치는 어디에 있는가",
+  "summary": "브런치 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90UHMwTl9McmJFc05NamRaWE1YRDROU3BDZzJ0bGFzQ1RoTG1RSmtVcG1Rc0VYRnh3MXJQMTRQa1BTYm9obWZGa0lrakhvSnVKdmFF?oc=5",
+  "date": "2026-10-31T13:13:53+09:00"
+ },
+ {
+  "id": "73c6925ed928d5df",
+  "tab": "erir",
+  "domain": "IR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "성과관리",
+   "단체교섭"
+  ],
+  "title": "현대모비스, 단체교섭 성과금으로 자사주 9만6136주 처분",
+  "summary": "비건뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qRU40dXpwSmQ4dU5OVDI1dUtNNExWbnRwZ2ZvVjB1dm9kOUhUbGJZUG00bGpkVlV0VmFZMHVFWG1iLWM1SUxEQzhBZ0FQMUJNdUtpQkdvSjdNSm9udWpHRTRMZzRndw?oc=5",
+  "date": "2026-10-31T13:05:04+09:00"
+ },
+ {
+  "id": "f1c9556c2527b31d",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "\"40대 부장도 이 정도가 끝?\"…회사 망했을 때 나라가 주는 퇴직금 수준 보니",
+  "summary": "더위드카 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nQkxFX2RlZXJ0Y2xIaGlldVVjUTlpOGZJUDBjUUtHZEhvckEwMzZ6azhTWF84VE4xNElyWnpneVJSZE1WY3Z5bEg3NHpKQUVqc2k5UHJaVFcwZUFlcFBBSmRkN3ktTFZFZDBxbXh4UXdBcXhGaHNn0gF_QVVfeXFMTnRJWVpnbU5SWW5KM05IWUx2Qkp5d3ZFZGREaEZQcDRyU0VubVJaNDhMQThtbXVXV3R0VGhhaWhUWW5ybkIwSUs5a2tBbm9keVBoQkM2Y3B3el9jUHN0T1c5RkpmZTkwU29ySkR3bWZIZ0RPaGd1d19wakJUcFlRaw?oc=5",
+  "date": "2026-10-31T13:00:00+09:00"
+ },
+ {
+  "id": "63c4562ac8c48525",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "재편성 이후 발생하는 혜택을 충당하기 위해 경제적으로 어려운 지역에 대한 지원을 요청합니다.",
+  "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDFnQmNIVEROQ1BzRm51aEo2UEdLTkhiSDVETzFqZW05a1pVWUVtSWJNdXVEZGU5cWJ1WDFWM3oyM2gxdERqeUlCVmU3cUItc3JkaFhrNFQ3eGFWMTBaY3g2NTlPMjRRS2Z0d2Z0R1VacnlPMkw5MEk0R0tqZHV3WHZTTEN3SmxRYlRpYUF4WFpRUQ?oc=5",
+  "date": "2026-10-31T12:09:06+09:00"
+ },
+ {
+  "id": "d8ed96abf10955f8",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": true,
+  "tags": [
+   "급여"
+  ],
+  "title": "내년 장기요양보험료 1100원 인상…재가급여 한도 확대 : 건강",
+  "summary": "재경일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBMVkxXQmtxRnFnNWk1RXN0VmxEVTM3SjZ2RF9MRkZEQVdiSjJFckNqZjduT25rakxxYnZVa1lXcDZjUlJWTWlkQlB6Zw?oc=5",
+  "date": "2026-10-31T10:51:02+09:00"
+ },
+ {
+  "id": "8e9f06c0de7d7ce7",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "산업통상부 정례브리핑",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOC1EemZBMUxzM3dWYU9LWl9ZR1VuS2daQjcxMXZsOUwweVE1Z0c1TENIaERkckRHSnJsTkxONnNtem1IVS1meG05eXRHS1dDM1YyM0dqZWl0V0xzVVo3RFJaTTFpVUFSXy0ybXdySXdqNjA5djhtQnhYRkdFZVZEdm9nclZnQjNUVjNyNmZOUzloVjBn?oc=5",
+  "date": "2026-10-31T10:30:00+09:00"
+ },
+ {
+  "id": "3b82e250de260550",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "“생활비 반반 썼는데 공제 0원”…맞벌이 부부가 놓친 절세법 [머니 트레이스]",
+  "summary": "서울경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52WjlaakZOMUpxQm43dVo1czBnNWFEamdCVTZZUGRJYUxNaGRsd3VSLV9mMGhOWXg5aVVCbTA2WGEtTHZRSjFOVmVvVDhQck1md1HSAVNBVV95cUxPQ0FhbllQZ1FYQUhxb01HNFBNQnBlbFVOX3dxNUdLZFhMYWhTMHlsNEZWLUFtcmtXNzFSd2h3YjhCcS0wLUd5Q0Jxcm1UeU5uZE5FVQ?oc=5",
+  "date": "2026-10-31T10:30:00+09:00"
+ },
+ {
+  "id": "64d3171ca0984c43",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "“AI 때문에 인류 멸종할 수도”… 퇴직연금 저축 멈췄다는 구글 출신 연구자",
+  "summary": "전자신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05M0ZxU1I2Q2YyZC0wdWxlSzFaNlR1MEw4UmVsVkhVc2tQS0pJLVdjWnZORUhGblg0WlNScElnRUtpZG1Ub1dEU2JFUDZRQQ?oc=5",
+  "date": "2026-10-31T10:30:00+09:00"
+ },
+ {
+  "id": "ea00ec99660fcc66",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "기후위기·AI 시대, 국민 생명지키는 「2027년 국가안전관리 집행계획」 확정",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aYk1TQW8zNjFmalBpVUVUeWY4XzdvOGFKcF9PckdxUHdzRkFkTVIzTzBoSzBNSXVqLWt0Y0VyR1dFMVQ3SUk3RHlvZXZRYmVSRlIxVlpLUE92N2ZSUGJQOE40YVNnWjZqdm5EZ2h1QUxyMGV6?oc=5",
+  "date": "2026-10-31T10:15:21+09:00"
+ },
+ {
+  "id": "0a37a557e1620d5e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "파독 광부·간호사 한자리에... 지난 헌신에 감사하고 오늘의 어려움 듣는다",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vdUtva01vRmtYZ3MySXA3NlZxRlhoNWZFRzNaRlNtaGlEZlJjTmlLdmpSWllHZEs3RFNCM1JQbnh2OFNUcWRkN1Z2bGdTN24wU2xfdC1kRjNHWF91eF9JTTkzNnYyU09hSlBPSl9MVjE3MTJ0YVE?oc=5",
+  "date": "2026-10-31T10:15:20+09:00"
+ },
+ {
+  "id": "dbaf06b8244b245e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "[연금 승부⑤] 단기는 보험, 장기는 은행·증권…수익률 엇갈려",
+  "summary": "뉴스웍스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02ZkNGLVV5TjNvcFY3U2ZKMWQtVEhUSmZ5bW84U2RQSTE0a1dCc1F3UTl2UFBBb2h3WVhBbnlqdVQzZkNyZ3Y4ZVh0N2h1Z1lQZWNURXBXUGJER3hEMmRjZnlGOGw1LXRwMGpEOFM2aw?oc=5",
+  "date": "2026-10-31T10:00:00+09:00"
+ },
+ {
+  "id": "34b592068a23e786",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "돌봄 수요 급증에 보험료도 뛴다…내년 장기요양보험 월 1100원 인상",
+  "summary": "조세일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yOU0zN2dzVWs0QU1zNnRxbHlCcHN5RFQtLWt3Wm11ZllUeExhQS1VV2Y1NGZUdzRpeUJsaXhRMzU0YVJMaTl2bUdEZl9mM1diNnZhUFh0X1VUTFhBeHk0?oc=5",
+  "date": "2026-10-31T09:59:39+09:00"
+ },
+ {
   "id": "e1023d0bec2a0774",
   "tab": "hrm",
   "domain": "HR",
@@ -105,6 +1052,36 @@
   "date": "2026-10-31T08:00:00+09:00"
  },
  {
+  "id": "e2b9c465980fd562",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"건보료 10만원이면 1만3,900원\"…내년 장기요양보험료 5.78% 인상, 세대당 월 1,100원 더 낸다",
+  "summary": "경제시그널 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJeUJXdE5pUGJuR0FCNjRIVVlJOU5pbWxIOXNHNVpUTVhHcG9Od2pNd0NYQWtXUk9fRjJ0Rno5bHBYTVVTOFIybWJHVDF2MldHVmU2eHJ1eHgwOU96Zjc2dVVUMVVQSDYyeUQ1WUdtNUdGMTQ?oc=5",
+  "date": "2026-10-31T08:00:00+09:00"
+ },
+ {
+  "id": "f024f846a17c1e80",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "\"주휴수당이 뭐예요?\"…노동법이 낯선 30만 외국인 유학생",
+  "summary": "뉴시스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xeUQ2TmNVM2hDN1NqVld3MFdKN2xXbkY0Tm9hV0ljQkFKUFgyaDBpaDJ1S093QWpWbVpSYm52dWRYZ1NzcE9lcF90Z2VCMUJHXzA3QXA1U2VuZU54bWV6NHRGZmhGeGRxbVdXUTBTNlVBMDNXbjdVONIBeEFVX3lxTE0xeUQ2TmNVM2hDN1NqVld3MFdKN2xXbkY0Tm9hV0ljQkFKUFgyaDBpaDJ1S093QWpWbVpSYm52dWRYZ1NzcE9lcF90Z2VCMUJHXzA3QXA1U2VuZU54bWV6NHRGZmhGeGRxbVdXUTBTNlVBMDNXbjdVOA?oc=5",
+  "date": "2026-10-31T08:00:00+09:00"
+ },
+ {
   "id": "50fb4ffa372a5be4",
   "tab": "hrm",
   "domain": "HR",
@@ -165,6 +1142,36 @@
   "date": "2026-10-31T06:00:16+09:00"
  },
  {
+  "id": "88dfee838642afb9",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "사별 후 유족연금 30%·50%·전액…연금 종류 따라 ‘감액’된다",
+  "summary": "세계일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XdENlWmo0REgzMnhZbWFJYmtpTzIyLXlTcGVHa0xEVTlMUDZBUUtNRUZqTXlxeFRXTkRoUlN2STFDUWJRcnlVMU9faG9qbDVyR093UnNfNEfSAVRBVV95cUxPXzItTnVLNEVIWTlwMkpvUU52d01uY1FoVk1jTWwtR21UQWd6NE42S29TM05fMzdZcUxPMXlRdmVqbHFwdks5SEYxMUdnVGs0VmVyR18?oc=5",
+  "date": "2026-10-31T06:00:00+09:00"
+ },
+ {
+  "id": "cd7fdbbe3baab381",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "초고령사회 대비 재가돌봄 대폭 확대…‘내년 장기요양보험료’ 월평균 1100원 오른다",
+  "summary": "세계일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLcnBNRW5qZlp6aDRpblM2MXMtQWdOaEpFb2I2VFB4QVpfY2Y4MWJjYWRpUk8xR0VwZXREZS03LTQzbWVvWjN1QnNsR21xLVVr?oc=5",
+  "date": "2026-10-31T05:29:18+09:00"
+ },
+ {
   "id": "5663cb43ecd0c9c8",
   "tab": "hrm",
   "domain": "HR",
@@ -178,6 +1185,21 @@
   "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBveTdTRl85X2NRZTR6RWIwS1UxQUUtNjVrUlh3RFBDRktvRGxETTdyQnByVnRzSHFUdF9tYlc5UVdvZUp2WnZVSXg4QzFDU0tDMXhjTFk5S0otaFJWdnZZRnZ4RHdBNU5KWHVMbVU0aFpub05aVDZvMTZn?oc=5",
   "date": "2026-10-31T04:25:33+09:00"
+ },
+ {
+  "id": "49c8967d01852431",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "한-독일 정상회담 결과, 국민께 보고드립니다 - 카드/한컷 | 멀티미디어",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42dWFVWXVvYlAwNDY0UEM3MFc2aVc2akFEMDhnS3BxTE9EaVFDS3hEOFl1YXQ3OFJEdHpCMWdES0d3SXVKZS1yUGJNWTJ5SnRZX3ZLaUM2endIN1dnUWNCOE1HZTl6X2lYVTAwR053?oc=5",
+  "date": "2026-10-31T03:33:45+09:00"
  },
  {
   "id": "ddb8eeefea1d858d",
@@ -239,6 +1261,21 @@
   "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDBTa254MWJaWVhBREdGNFhzY1lKekZlX1VUeldzYnNYWjVGZ09ENWh3LUk5VmdVWTJCbmZlTW1tZDA1cHhZLTBucHp2eUxfZV9aejl0b0FNUVJ5Vm1VSE5zLV9zVm5xTlY3dEY2Z3o1cFVVMEw5NHV5ZWQyVWlvRGVodlVLQmFwdVpwMnlqZ1F5V2dva0RRWGYtemQta3Fvb2JxTnYtQmh5eW5QQ2c?oc=5",
   "date": "2026-10-31T00:06:47+09:00"
+ },
+ {
+  "id": "4d2c55d6f52b5db4",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "다음주 금융당국 일정",
+  "summary": "이데일리 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLWdmTmtIS1RLd29DVnhUd3VienpkakMwd3ZMOWR0TGlwUkVELTJtcm9vQjVzRmpvTDRnbTIyQ1lVRjU4VG4ycEY5TUJ2WmJ0aDVpd3RmMVN2TjlyeUhLZmhMeE9RN2pjOWJNTE1xazRwdDcxczhvWTFJenN3S3RmTQ?oc=5",
+  "date": "2026-10-31T00:06:02+09:00"
  },
  {
   "id": "40fa69d6ad5f191b",
@@ -332,6 +1369,21 @@
   "date": "2026-10-30T22:20:00+09:00"
  },
  {
+  "id": "be675f595a8f6a67",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "부산환경공단,내가 지키는건 \"환경만이 아니다\" |",
+  "summary": "한스경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83NTFMQ3BwSVNRWmxEVm1lTlhYeUFxYXhIc3lMSm01aEhYMG1MZ1QxVmxzXzlCVGxDU2lveUxhVUYwVTFaYmxITVRsX1FZR251TTFfWDhvU0RxRW13YzdQM1lOYTlmajZpUG41akQ2bw?oc=5",
+  "date": "2026-10-30T21:56:33+09:00"
+ },
+ {
   "id": "15fcf4e901bf34bb",
   "tab": "erir",
   "domain": "ER",
@@ -361,6 +1413,21 @@
   "summary": "광양경제신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZZ0pNTlExYnJZSzJWWTlSNHVjeGtYT2lGdWlDU0RKc20wZ21jQ3VlRml0S1FHQ1B6TElzVUg1ZjNzRG13Mk1ReUJNQ3l1M092eU9hSFgwSnlndFpUVl85VndyczFTQVpfYXBR?oc=5",
   "date": "2026-10-30T21:31:14+09:00"
+ },
+ {
+  "id": "3801fc934fbb3dc1",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "“요즘 재미있는 사람 참 많다”... 같은 시기 올라온 당근 구인 글 2건, 반응 폭발",
+  "summary": "위키트리 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hX0JCXzZURzNWVVFNeFltenprcE1VWjBRYTEzUXpaQTZsOHZVb28za0hKelVSenBwbEp5b0Z1ZnlDNzlNM19jdjhqYlhfSzJlNmdoaEJ3?oc=5",
+  "date": "2026-10-30T21:28:00+09:00"
  },
  {
   "id": "96082819bcdf5fd4",
@@ -421,6 +1488,21 @@
   "summary": "커넥트이천 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94YlRYXzBGMXFIYkJ6aFlPU3p2bTN4MDFROFJzakIxT1hfU25EdzAwUV9FRy1leU9IWGZnTVJtdVRNY2tYNjFMYVNUN3Z6TkhQemtkMTFLYlNTSUNFdFE?oc=5",
   "date": "2026-10-30T21:00:57+09:00"
+ },
+ {
+  "id": "87b599c3359ba4e0",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "내무부 장관이 새로운 급여 정책에 대한 정보를 제공합니다.",
+  "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2NtMmNpMUNSUVc4RWlqOE1oZEJSd21wcXBlM1UtQS13V2FmSjZucTFuREQ1THppNy1CaVVkOGcyMHhYb0luX21kbnNZNlNJSFVUMGVjdzlTVjNSUVE3T20xSi15N3hGNzh2UGRlN2xoXzZvUktHWlYxZVlfZUphY2V1MDNoVzlK?oc=5",
+  "date": "2026-10-30T20:57:43+09:00"
  },
  {
   "id": "1de61bec5eccb22d",
@@ -830,6 +1912,21 @@
   "date": "2026-10-30T20:03:48+09:00"
  },
  {
+  "id": "00c7d7249b50d878",
+  "tab": "talent",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "은평구약, 서부경찰서와 위기청소년 지원 업무 협약",
+  "summary": "데일리팜 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZSnJLMmktS2doSVdPLXRtN1V1S3YyaF93Sm9tSzhiLTBuVE03RjdTWDJhT0ZWaWxSWXBuamJNdGpGMlBudHp6UF9zT1EtdjNIWEtHUUxn?oc=5",
+  "date": "2026-10-30T20:02:23+09:00"
+ },
+ {
   "id": "2dde69a12cbc3da1",
   "tab": "talent",
   "domain": "HR",
@@ -918,6 +2015,21 @@
   "summary": "파이낸셜뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fb0trTVFPcnBqcEFvd1FTajRIYnU0ZEhQVlVQbUFQVk01VjRoemd2c2hNaE83SmZCYXJ3UGpJT2tESi1fN0xxcVgzSUhuZm9LbGJ3WkZURzd2dw?oc=5",
   "date": "2026-10-30T19:35:18+09:00"
+ },
+ {
+  "id": "9373cd9ee09fa140",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "성과관리"
+  ],
+  "title": "대기업 노조 '영업이익 성과급' 요구에 전문가들 \"최종 이익·투자 여력 반영해야\"",
+  "summary": ":: 위즈경제 :: 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91cWpDeV9xRXRwemFjbzVCVjJHRnZkalJpT2NVc1ktNWlMeUdvdkhtUHZFZlBlYy1BU2JsQ0NjNTg2OFlGOUpEdHRiZmh5U1E0Ylo1dA?oc=5",
+  "date": "2026-10-30T19:32:08+09:00"
  },
  {
   "id": "624c395234ae66c5",
@@ -1165,6 +2277,21 @@
   "date": "2026-10-30T18:53:07+09:00"
  },
  {
+  "id": "3a0496af72caa01c",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "박윤주 외교부 제1차관, 미국 외교정책위원회 대표단 면담(10.30.) 결과",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcFVBcTRZLUdIdHA5VGxYazhHQWw5aWlzVk9kNDczZVZIVmhSZHQ2VFBVbi1hak84WkVZaXJSaTJlRVhUNHhiNVNnYm9vNEdNcWhFM1lzby1ZdUJXWXFxMUlZZkFodVRwLTNEMnFyUXl2dVNneEx1SVQ1b09rcHNPc3UxVHJVa2tGZ3JSNnAzb2RRdw?oc=5",
+  "date": "2026-10-30T18:51:00+09:00"
+ },
+ {
   "id": "dd606786e7a33600",
   "tab": "erir",
   "domain": "ER",
@@ -1225,6 +2352,36 @@
   "date": "2026-10-30T18:40:20+09:00"
  },
  {
+  "id": "c1fa88516afda30a",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "세액공제부터 인출까지…미래에셋, 연금투자 절세 가이드 발간",
+  "summary": "메트로신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IdmYwd0ZjU2U4MWNRZ2c5OU8wWlBGdHhlc0dkRGhVT0lrOUI1REpnLU0tNTlpZ2ZhdkhzOXRlelRBek5sbXFqQVlJeXI3RGd2bUN2cVFZM3dYUkhMckhVSA?oc=5",
+  "date": "2026-10-30T18:39:44+09:00"
+ },
+ {
+  "id": "8ea03cdbfd7cb6af",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "금융투자업계, 연금 가이드북 경쟁… ETF·절세 전략 전면에",
+  "summary": "비즈트리뷴 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXRWNEZjlueUFCenYtMHpUUmwyZW5FSHoxcVpOTU0zb056eXJzc1daMEJOeXdFQXRhWTE5QjJqcFd6c2dDSjZvTTBXZFdzSjNHemdKX2ZvYVNqQ0p5VEM4eWh3eFVyYjBhTjktQ3lEUkY?oc=5",
+  "date": "2026-10-30T18:36:23+09:00"
+ },
+ {
   "id": "226b071257d203af",
   "tab": "hrm",
   "domain": "HR",
@@ -1255,6 +2412,22 @@
   "date": "2026-10-30T18:09:12+09:00"
  },
  {
+  "id": "20502860063ad13a",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여",
+   "퇴직금"
+  ],
+  "title": "[공공돋보기] 퇴직급여 사외적립 의무화와 노후 준비",
+  "summary": "공공뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE84VWswdGJGU0RtWlk5WnJVU0poRFIwdld0dUhmNlBYUVZkY2Jra0cycW5aZ1AyUkVRTllRME1rWmNtME9fbEh5ZDgtV3pLb3hDbm1BZUFFOXNCNzlVRUw3X19La3VoMERDSEwtU1RB0gFuQVVfeXFMTzhVazB0YkZTRG1aWTlaclVTSmhEUjB2V3R1SGY2UFhRVmRjYmtrRzJxblpnUDJSRVFOWVEwTWtaY20wT19sSHlkOC1XektveENubUFlQUU5c0I3OVVFTDdfX0trdWgwRENITC1TVEE?oc=5",
+  "date": "2026-10-30T18:03:32+09:00"
+ },
+ {
   "id": "e06eaf8aaa1aea96",
   "tab": "hrm",
   "domain": "HR",
@@ -1267,6 +2440,21 @@
   "title": "윤호중 행안부 장관, 핼러윈 대비 인파밀집 예상지역 현장점검",
   "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPckRxMjRBeWVvVTJnSXBzdTJ1QzRNR2NPVGNjMVBaYXJXQlhxaUNiM2JHSFNFMVNnYVc3TDJqbWJVZ01Od1ZEbUl3al92ZldMMTdZbFM3RGJxVDFTRDdmNkxhUzRKTTBRM09EWV9ZY1BCLWdSQ0Y4bmRIZ0Z3T3ZzX0NzTzVFMDVFcUQ3ZGVrazZUQQ?oc=5",
+  "date": "2026-10-30T18:00:00+09:00"
+ },
+ {
+  "id": "08b0c8a2e00d0f5d",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "제1차 자살예방 정례브리핑",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByUnlQWVVpck5kUi1zTVkwQVlRRnotMnEteHVDWHNaMlZaakF5XzI5cVBKc09ZMmVScnBxekhMZDNwZURXRDFseWpaLWVXbDN3WEFxSXNZczh0RlRSWmhFZUZFYnJHQ2dnWGRnQUcydGc1OF8zWFZF?oc=5",
   "date": "2026-10-30T18:00:00+09:00"
  },
  {
@@ -1285,6 +2473,21 @@
   "date": "2026-10-30T17:52:00+09:00"
  },
  {
+  "id": "ba610bdddb6cf6f4",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "제1회 '공학인의 날' 개최… 공학인의 도전과 미래를 응원한다",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTmg3dm82ZTVCakM0M1dwSHY2bHh3LS1kTU1YVzVYRzB3SGQxX19heERnTGhObTlGSVpVcW5EV0RJUkQ5UUVWQ3cxRjFsUDlVVmJsS2Q0WVNKVDdIQ3NaSDd3MlYycEtOV09aMXg4MVFTOXdCdWpXN2I4TS1mc24xcXFOMUdCdmlxQ0N6RUlBdW5iQQ?oc=5",
+  "date": "2026-10-30T17:51:40+09:00"
+ },
+ {
   "id": "3f9f79ab17c4ba91",
   "tab": "hrm",
   "domain": "HR",
@@ -1298,6 +2501,21 @@
   "summary": "https://www.ppss.kr/ 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aakFfV0xPQ1dUcWh0Q2l4dVY1b0xxbVI4LXF3aFNCQmdaRENGM0ItQWpxR1VsT2NRMnMzRzM3MmZzNzBRNHZmN1lHMng0VzlkZkRaY0xuZXJVWEtFOWdxZjBacXQ?oc=5",
   "date": "2026-10-30T17:49:40+09:00"
+ },
+ {
+  "id": "23bfff34c2ed6f04",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "홈플러스, 퇴직금 마련도 난항···희망퇴직 돌연 철회",
+  "summary": "뉴스웨이 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41YXdhaFFVR3Z1aHpwQ1VIMUxkdEQwS3p3YzZ4TjdkOFNPc2dfbmo5T3J2X0VWZXZHcmQ2Rl83OHJ4Z0ZXcTdRWEVzVjFiUTRlUTdkVFQ4V0hKVXFpLVhuU1NRaUJkLXlSOUE?oc=5",
+  "date": "2026-10-30T17:48:19+09:00"
  },
  {
   "id": "b2edb5c401b54d00",
@@ -1343,6 +2561,21 @@
   "summary": "OhmyNews 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JQUtGTWFvSTY4S3RXOGVVNkt2NERkNzVfVWlWQWxzejl0WUhNcmJFaHVJMzNfWGFWN1dQRUIxSndlMHhCUXpYWThJS0NTRmx1VkhvMk1SY2IwOVlPd29ZMjBpMWIyamk0Z18wbDZGazMyN3RX?oc=5",
   "date": "2026-10-30T17:40:00+09:00"
+ },
+ {
+  "id": "6a5ecfe22b7e52d0",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "기금형 퇴직연금 도입 시동... 증권업계 전문 운용 역량 주목",
+  "summary": "리버티코리아포스트 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA3aGwyNmY4dzdxME1sX0xuQXFrVkt6a0M5aTlpbVRkcnRmeldHT3pWNDNXcEFPMEVTWm9naDk3Z1JNWWdRWUhoTWJYTmxNTV9ZNEtyQmNMSldMOGJ2a08zejNFWdIBZ0FVX3lxTE9yRlRrMUwxeDRUZ3A0Ulc2a0h3OXBDb0xNNmZvZm1ULWJpWXEzbkxKdW5tSEpBdGswdFQyUElwbktsTG5uZ3JJaDZTYUhGRV9US1RzZ0JKX0Q4WUhfY1Q5WnFreGljYjg?oc=5",
+  "date": "2026-10-30T17:38:00+09:00"
  },
  {
   "id": "c2a89f929666ccbe",
@@ -1403,6 +2636,21 @@
   "summary": "MTN 머니투데이방송 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtYlUxR0lGdFRiLWEwZk1ITGxqNkZCRkVMZTc3VDh0WnNRWDVnRF8xcXlYQjNRaVRuVFNJV3FJN0dLSE1VeHQ5S1BDWVVrRF9DYXFMQUVWSjBhcm9WMG9r?oc=5",
   "date": "2026-10-30T17:28:36+09:00"
+ },
+ {
+  "id": "c194292a102adc9d",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "내년 장기요양보험료 5.78% 인상…건보료 대비 13.9%",
+  "summary": "SBS Biz 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtbm0ybmNYcHZkNEc1SkF2VHhGdVpkUUdaZDEwZFFUdVlBZm4wM2R4Q2JzbjlGZ0dNOUIxcDZFN3RyTTY0UEUzbHNRVWp3SUE2UTdzWXJraC3SAVhBVV95cUxQbW5tMm5jWHB2ZDRHNUpBdlR4RnVaZFFHWmQxMGRRVHVZQWZuMDNkeENic245RmdHTTlCMXA2RTd0ck02NFBFM2xzUVVqd0lBNlE3c1lya2gt?oc=5",
+  "date": "2026-10-30T17:28:00+09:00"
  },
  {
   "id": "bf461e62d7c03a10",
@@ -1510,6 +2758,36 @@
   "date": "2026-10-30T17:03:35+09:00"
  },
  {
+  "id": "7b4b66108039a479",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "농촌진흥청 농업 전문가, 남수단 한빛농장 찾아 기술 전수 구슬땀",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYXJZQVRYQzNhS0JyOC1iWEVuMTFKdnhubTNmSXlxTmppU09LRDdSQ292V1BIc2M4LVoybFlpQ0xtV25nOXFGRHV3cjlCQm1zdVlQaDdPQ1NPZm1HYjNfR1NOMGs2Qk1ubWxNdFFEenI5VmJ4blBoVWE3d1Z3S2ZQS203SHYwOUFzd3ViOVc4SnAydw?oc=5",
+  "date": "2026-10-30T17:01:39+09:00"
+ },
+ {
+  "id": "f462272a39238fb7",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "미래연금센터, '연금투자자들이 알아야 할 세금상식' 발간 - 머니투데이",
+  "summary": "머니투데이 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YdDNBUlY3MWdYNnl4VUxrRjVYNTlQVkNmMEJnV1pMN2QxR091QVlTQjNDNnY0a1JLLTd2OHUtMGVhWVVYQ2tFc3lJQVFXeEIxVzJmNi13Y3NkRlhRRmhrekRCamNuV3dn0gFuQVVfeXFMTnZGVHlPOXFUbTF5RHdpd29waDJ3T1o4NFZYek0wOG9lSGl2TlNSNGo0V1RBZ29IMWtNQWItb2dDZUNma3R0eVh3WGNDWVdxZF9yOEFyR2xTZGh5UWxhNThCS3dkS1ZCTkttakM4ZUE?oc=5",
+  "date": "2026-10-30T17:01:28+09:00"
+ },
+ {
   "id": "07dc7a00cbdc2ce8",
   "tab": "hrm",
   "domain": "HR",
@@ -1523,6 +2801,21 @@
   "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeXBVS19fX3RiZXFTYlhlcy14TkpMa25pMTRHUXR2aFo5UWttd09EbTgtRExEVFIwRExkTXFuVDBDTHgyQTVDRTQ0OWM0Y2N5aXd6SEZBZGx5UThQWXYyUWVMQzdYeFZBRk5HTVhfMzV3ZE90UURzUFdVc3h3dDBpb0Y5RlJsUmhQUmpUQ1M1ZWg3S2hJ?oc=5",
   "date": "2026-10-30T17:00:52+09:00"
+ },
+ {
+  "id": "41bf8d4067d64407",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": true,
+  "tags": [
+   "급여"
+  ],
+  "title": "내년 장기요양보험료율 0.9994%…중증 재가급여 한도 15.1% 인상",
+  "summary": "쿠키메디 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pOEl1TEROaTh1WWtDc1dIZ0o3Q2RFVUVyWUhUTnQ4ajMydmd0UHVCLWt2ZGYySk5KaVRfUmR4TEtFY1JCSDJmX1E5ZTM0LUpfd2pCZnVDcU0ybzVMMnRFZktyUQ?oc=5",
+  "date": "2026-10-30T17:00:13+09:00"
  },
  {
   "id": "753a5f7b5080005a",
@@ -1631,6 +2924,21 @@
   "date": "2026-10-30T16:44:44+09:00"
  },
  {
+  "id": "328edbec83fda5ca",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "“노후 자금 10년 굴렸더니 6% 수익률 났다”...대신證, IRP 10년 수익률 증권가 1위",
+  "summary": "투데이신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJN2x3YV9Ud3VFUEcybVd5b2tVaDhFdkdWZVgxWHVQMTRocURZMHc0bGVmaXdMNTNmcllWdm9EaFJyTlhPTm1yaThxaDRNUDJtZ3VUVUk1d29OZFlKZkVkbzdZa2lvaGpRWlJN0gFvQVVfeXFMT3RfRlFlOHZBXzR1SDBLd1ZOb2lQdkdtWER3X2pfOTFuN2VfTHJ6V0FCek0tbURUNk0zUXJrOW5DYVoxSW5jbTAwd0dUZWEzclI3cmJYVHRNVEs1MWdoeUNQLVY4WG1ITnFQdjhFWHkw?oc=5",
+  "date": "2026-10-30T16:40:48+09:00"
+ },
+ {
   "id": "93ca2b1117309838",
   "tab": "hrm",
   "domain": "HR",
@@ -1644,6 +2952,21 @@
   "summary": "뉴스투데이 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92RkR4MnBMX0JKSk9CT2NJOFhKOVNPSlZhdjlDR21hcHJlRnZjMGdDVThaczB4enJua1pZQTduM3h1TFNQTEgydkE1MjVYRFFZcDY4cXhQWVpuQ1ZIckE?oc=5",
   "date": "2026-10-30T16:39:00+09:00"
+ },
+ {
+  "id": "72dd94db6ba8c0c4",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "“자려고 누웠는데 연금 걱정이?”…KB국민은행, 박은빈과 퇴직연금 광고 공개",
+  "summary": "스포츠서울 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9vREs5QnE4MzVYei1tNzNwTnJZTF9mWDFweDMtRnZtUlEyNzREMUV3dWV4VGl6WGNDazNUTFdmTUZ3bjVTT2JUUTNWbFpJdW5uZkE3WXpTRmg?oc=5",
+  "date": "2026-10-30T16:36:37+09:00"
  },
  {
   "id": "9425d29815be49e3",
@@ -1706,6 +3029,36 @@
   "date": "2026-10-30T16:30:52+09:00"
  },
  {
+  "id": "756ec6d6e892cf98",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "농촌진흥청, 가루쌀 맥주 기술 확산 산업체 간담회 개최",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pbXc5WlpKbDdNRHFpdWwwTFNkekR2dEx2VlhPLUduVmFCMnlGT2ZZQ3FCWENBZFdQNk1KVVJJckRfZGQyYm5qS3NZdmNWNXdrSWRRU2YzWl9RdGJrLVRXZUg5Wm5SdlVRZ2pReHBlcHVTLTNx?oc=5",
+  "date": "2026-10-30T16:30:02+09:00"
+ },
+ {
+  "id": "54a0efda6e37f6c3",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "대신증권, IRP 10년 수익률 6.12%…장기투자 전략 주효",
+  "summary": "ER 이코노믹리뷰 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Kdl9XbW5mQ0c4ZGFsUlZtQkNMYzk0blF2ZnNwUUNnT2JIUmF5RUFhSVc0dU5PXy1IWkIxVXVsMDFfNkZ2dE9jWTkyMkhaNlZ0Y1pTb1ZZOHppZks2Mk9PQjBIQVJXM1JzV3pySQ?oc=5",
+  "date": "2026-10-30T16:27:46+09:00"
+ },
+ {
   "id": "2eafca64a37f48b0",
   "tab": "erir",
   "domain": "ER",
@@ -1721,6 +3074,36 @@
   "date": "2026-10-30T16:26:42+09:00"
  },
  {
+  "id": "f31b690a61b682a9",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "양산산림항공관리소, 가을철 산불대비 총력 대응태세 확립!",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOXNhWlIyWXktamdyU2xDLThFSE1GSkMtczRoSFV0N2ZPS3NNOGdONXZiRTdHM2RFZVI4S2NyQTJPNk9sMGJaTDJRUFRrQUFHT1d6bWFYU3h2RDU3TnRoVWh5X09VQlBSamlMbVZwSjdfWTRGTU9uamZKVFdDZ21XS0syNjI5RmJsakRJTEh0VzdRU29HWWdOU2ZDX2RNbk1yNjI1QXFCX2NhcmpTMHFWRUNmVExpNkJsRGQ0RGREUUM2cTZ5ZmY1cUFpejEwa3I2WDFCSFNNZmplaUR2N3EzUjNEdFpyby00TmNRQkpUaw?oc=5",
+  "date": "2026-10-30T16:25:20+09:00"
+ },
+ {
+  "id": "b4ea13b741473e12",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "팽이버섯 고깔 세척·건조 기계화로 '위생 관리' 효율 높인다",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSlNTUUpWazZOVmI1bW5WMmZYSTZxNFl5T3pKSkd6cUdQUDhSYmlUZU96c3QtcmJJV01jSThEM2F6aGc3NkVXek5fYUQxTUNwSV80SFRIMjBPcEUwbDUxQXZxRExTdW1sbEt0NVNELVR5by1rdkoyeGt1N3dKeUtzY01xSGpaejVBbGxHWA?oc=5",
+  "date": "2026-10-30T16:23:22+09:00"
+ },
+ {
   "id": "b6851bb19576d0c4",
   "tab": "hrm",
   "domain": "HR",
@@ -1734,6 +3117,21 @@
   "summary": "아이러브PC방 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtNk1FWXhzekU2QmtfWm56UzVuZmgzWHg4S0xYX1F0Wk5OYzlHZmM5NEI3dWFmcW1LM3BoZUdHMXJXUUJiTWlnbEh3YzNnY2ZlUjRsZDFKQWJfbTJqV1AwRUJFOXRsYVNiWldabG5BNA?oc=5",
   "date": "2026-10-30T16:21:01+09:00"
+ },
+ {
+  "id": "8138ea4dfe887c69",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "대신증권, 10년 굴린 IRP 수익률 6.12%…증권업계 선두",
+  "summary": "인사이트코리아 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtWXNpSDZRZElaUl9xS3hvUHNZYXRjZ3U0RHpHNloyOEIxbnhGZ1NRZGZoVVplN3p3R2RDejQ0UE5iOFh1NzBLT0tPZDZpSVgwMEd3bEFIMkxRSzJYMUp2UTdMTGN1Ny1hRERpTUs5TFlob0nSAXdBVV95cUxNc0o5dE4ydzlfUk1hTHI0a1Y5c1BMbU4zOEtPM3NpZXhWMUZBbXpGOThoekNVR0laaGJOTGhiSmFWVmR2S2lpR1ZKSzBuV2NOS3piaGtoc1JKMzZxdFo2Sy1lOG9VVEpBT21HXzA3VGl4NURmclMxRQ?oc=5",
+  "date": "2026-10-30T16:19:59+09:00"
  },
  {
   "id": "96f53ad834c69a6a",
@@ -1766,6 +3164,21 @@
   "date": "2026-10-30T16:16:33+09:00"
  },
  {
+  "id": "d0b83cd095d7c24b",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "케이(K)-농산물, '농약 안전관리' 강화로 비관세장벽 넘었다",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLW1kOHlwemt5am1vVGRPYnlxTlg0ODlMRjlKdC0yYkFrakJXYWtoU0wwdUN0TlRBeGZvdl95dkQzMTR5cWlDakZsTk16OU1wWnZFaGgxcy1oY3F4eXo0QUxDUU9tZEFsVHI0WDVJNE1iWjVWUC1DVXF0a2h3RFJMc0YwZ214emt1c04zQWVzdFRjdw?oc=5",
+  "date": "2026-10-30T16:14:57+09:00"
+ },
+ {
   "id": "0306f2aa6ca9ff7e",
   "tab": "hrm",
   "domain": "HR",
@@ -1779,6 +3192,21 @@
   "summary": "강릉뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PVWw4WDhqZDlZa0l6WFF2MnFKTnFUTm42d2VCZHFjNl9NMzBFWnlFdWgzd2ZpSHhIa2ZuSVdDaXE1anFLRHBBblJJM0tqeUk0d0l2RU9DdFFGRHA1UXNaTlppZVd6amdGX3Y2SGxoVjlFUQ?oc=5",
   "date": "2026-10-30T16:11:25+09:00"
+ },
+ {
+  "id": "bce8f4449e3bf9e5",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "전세대출 이자 비교, 무엇을 보고 달라지는지",
+  "summary": "스페셜타임스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KcTVOY1lSZlByd2RfOUJuX0hQT3FyRGNIZmtsR2lxR1dRQWp2QVZ4eldVcm5fNFkwZkhqY2pMdlYyNVFmMmswNjFNLW5oMFF3RVcxeGp2aW5IWkd6VzFQX1VRLUtYUDJEdjV3UHdMWm1UMVE?oc=5",
+  "date": "2026-10-30T16:08:36+09:00"
  },
  {
   "id": "b664ca57366b18f4",
@@ -1809,6 +3237,21 @@
   "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNOVJkQ19oSTA0T1ZaUEZlQ0xGQlpiMXhsUlY2WnJNS1h5M3dQMDhPeWNJeE96ZWxJX1N1am9xOWpsVk1LbGJnYkRNZ1JHcmNCR29aaEZGUDF0ZHVQN2tZNXBFbzY5OUI1d3RQcEVoaW42ZTgxOFY4dUhXbkJoX2U5R25PT2cxbERqcC16THZINDJPZDl1dFoxMjI2NUljVFJ0X1hYal96VEZHeHFhZFB2SlRlVXJ5ZVlKekxLeXd5REdSQ01qMDBvMFhtRUJGOUxJak5FaEJIMGdxdlhXZnd2bzZGNzJlbDIyeGhvU2l1OGxEVUhKZHh6ZjB0RVNQd2JXb1p0UW50dlJQdW83Z0RaN2VB?oc=5",
   "date": "2026-10-30T16:06:31+09:00"
+ },
+ {
+  "id": "84c2805a6308a1d8",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "퇴직연금에 IMA·발행어음 편입 추진…증권사 연금시장 확대 기대",
+  "summary": "브릿지경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xQXFIQjFBcEpPV2U5V05BVWRGN3RsMzh0dlRvYm5qbDkxZ3lTTV93QlFMMjlzY3RqYS10cEJWYXREZThLdllrNVoxTGhaNG52SG1PdDBTT3Y2Zw?oc=5",
+  "date": "2026-10-30T16:00:00+09:00"
  },
  {
   "id": "a778fd9a8fb3a13d",
@@ -1854,6 +3297,36 @@
   "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaXEwcVdqNF9VMFg4cjN5UWQ0elRHN1FwelFiZGFmOGcxUGFsX1QyOHdjb2dDeF9IbGRlRldROGNGQm55ZDloWHZnMWVXNmdNV3JNZW1GYnAyQU5xd2M1akYwTWRDYlc2YzYtdUNkVEIta0RFZ3lvdjV2cWFBaVRsSzg5Xy1ET0E0YlE?oc=5",
   "date": "2026-10-30T15:50:30+09:00"
+ },
+ {
+  "id": "f5ea5dbe90ffaba8",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"AI시대 세무조사 대응 전략…반복적인 자금거래, 사전 문서화 필요\"",
+  "summary": "한국세정신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwRDRMTE40a0hWT2Z1MGVUUmFvU19xYVd3S01HcXVFODNvN2o5RHVpYTVxcDE4bExWTzhPZ3BLdXRMRlZ1T2JHWHhhR0FKMVZBczZPWVhra2hXbl84NV92dExfNnc?oc=5",
+  "date": "2026-10-30T15:49:22+09:00"
+ },
+ {
+  "id": "0ed851fec5e772bc",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "[더밸류 브리핑] 오늘의 증권사 소식...대신증권·DB증권",
+  "summary": "더밸류뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRQlFqZzY4NXFQeF9rcUV6QXlJcjU0VUJPSFdBVzdBSHpQcjZyX1QyRDVMM3k4cG0yNXJjaG1hVG9FMnFxenllV2Q5eDJlNnlZcE1leg?oc=5",
+  "date": "2026-10-30T15:45:00+09:00"
  },
  {
   "id": "149679aa33ec2af3",
@@ -2036,6 +3509,21 @@
   "date": "2026-10-30T15:00:00+09:00"
  },
  {
+  "id": "283ac9855ab7936d",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여"
+  ],
+  "title": "홈플러스, 희망퇴직 취소에 급여 지급도 연기…자금난 심화",
+  "summary": "스포츠한국 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05aTltY21jYnR5LXh3OHBRUWdYWnVDVnVDblZLS19oWDhZaEE1VjEzVnB4enZIRks2dE5MSS1Qak1LaUhxQTc1ZWdJZHlnU1Y3d05GOGNOR0FBMWYzWlZWVUkyTjJYN21EOVlnaGt4UEPSAXRBVV95cUxNQ1p2S3lmSFlkVk85RWo3TmFURFFmN0N4bUwwOGp4V3YzM0ZiaFU2Y0xjdmR2Tm5ISUR2WW5yejBmSVI3TldtMDVJWWxPcXN2NlhmZU9aNlZNbU0wT3NWUlphdThJQWV2QXVSOXNEQmtDZUJRaw?oc=5",
+  "date": "2026-10-30T14:58:38+09:00"
+ },
+ {
   "id": "e1ea0b516b68fccb",
   "tab": "hrm",
   "domain": "HR",
@@ -2064,6 +3552,21 @@
   "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbEdSMUdiM3YzbTNBakxwakJURGNvVFN6VTVvdkg4aC1BX1U0ZkpWUHl3aWdUT3BJMWNnSnBERmJsbkV3MzFpbjZjNmZRcXdOaDR5WlJKRGt5bWpiZ1FoOTRPUVR6VUtDakg3NE9BS252VzhqQWlfV3JHNS1FMWZfVnVMU3d0Y3NYeF8xNHhVM19wWDBoOW1oTFlZckw1Ykl3aEE?oc=5",
   "date": "2026-10-30T14:43:51+09:00"
+ },
+ {
+  "id": "07c00e480338d84c",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "日 정부, 12월부터 휘발유 보조금 단계적 축소…매월 5엔씩 인상",
+  "summary": "재팬코리아데일리 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aLW5hM1pNeFBLMUYzVE9GYkpUdF9PNDFOT0FKaWpKd1ViY0k0TWRQY1g2M0N5aldQakh6dkNWa0FHM1c5Z2dyRXZoRFJRYXppV0JweVM5aG9tLVQ3RERGeGZlb1ZsR0drVkFUeg?oc=5",
+  "date": "2026-10-30T14:43:29+09:00"
  },
  {
   "id": "698b9207e396833e",
@@ -2156,6 +3659,36 @@
   "date": "2026-10-30T14:09:58+09:00"
  },
  {
+  "id": "05c3a94c39f419d4",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "성과관리"
+  ],
+  "title": "'세수 1조 이상 증대 효과' 부동산 감정평가 예산, 내년 52% 늘어난다",
+  "summary": "한국세정신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSalNZMUsxYUJ5bzF4OFZNeDU4LVhsVE92UzFuSVprMFlkM0N1SGFpbGJRbUxseEdqZ2lDTXFxOFQxRE9LNWxlV1MxdTJRLWtvb2luS29CMHhSUE1xYzI5WEx2QWI?oc=5",
+  "date": "2026-10-30T14:08:52+09:00"
+ },
+ {
+  "id": "0de9e64915618817",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "추미애는 없었다…파업 막아낸 경기버스 밤샘 협상장 [오상도의 경기유랑]",
+  "summary": "세계일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fbkVYMXNNbWZTaGdKczRqWlhfTEhyVW9TWUZ4VnFiMUJGVFBnMk1velROTG9lNHlwMHBiXzlERlk5OXhQem1pVGV4RG8tVm5qekt2NV9xaUnSAVRBVV95cUxOcVA1eDJhYVZOcWVDM1lzTkluYkZKc0gzY1h2ZXRwd3RfOWhnaXRKTnNzOGlrR0FBVEtjNmM4eDF4UTlMSXJpNmZIbFFDTm11WmVtdXo?oc=5",
+  "date": "2026-10-30T14:07:58+09:00"
+ },
+ {
   "id": "d055f5fe18033024",
   "tab": "hrm",
   "domain": "HR",
@@ -2171,6 +3704,21 @@
   "date": "2026-10-30T14:05:00+09:00"
  },
  {
+  "id": "e5912429f4a290bc",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "“산업변화를 진단하고 현장의 혁신을 이끈다” 산업별 인적자원개발위원회, 제5기 도약 다짐",
+  "summary": "고용노동부 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYeC1xcVVMRlZvOURrSlBodF9TSmw1MWwxX29oWUstd2VqVUFPZUtpMVNHZTBMbTZhUFZBdWdQbmthaVpjUGZVSWhncEVxWG5mV2x1blpwc1RaVHpQZ3hzZ0xTRDBmQURSY29BZTRRdHNDSU8wQUNn?oc=5",
+  "date": "2026-10-30T13:59:45+09:00"
+ },
+ {
   "id": "26b200314a348a0a",
   "tab": "hrm",
   "domain": "HR",
@@ -2184,6 +3732,21 @@
   "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWUlXY3ZQRncxamlON2VPRXdKc25WY2cyWjNQaFpSbEFERDRxQ2h1WTFMNENzc2lzZnZIM0dsNVBsOFYxVWRsVnlRTVFUVW1HVmFMSUYzeF9qUlJfYXFvVklyRVd3QTZqank1YUVfcnNMbndZUzRqUWg5NWRiaWc5YU1JeEdDalpkdGcxc3Rta2RYQQ?oc=5",
   "date": "2026-10-30T13:59:32+09:00"
+ },
+ {
+  "id": "47b31c2041eaf0ff",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "mw",
+  "kind": "news",
+  "urgent": true,
+  "tags": [
+   "급여"
+  ],
+  "title": "대전 서구, 2027년 생활임금 시급 1만 2630원으로 4.8% 인상 결정",
+  "summary": "더퍼블릭 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UWGRNUUlXYndxdXNqUEVpV0trcDh3ZTNaa1hoaWc2aUFIcElIODFCSE54ZkcyQ19OaFg2ODl2eG4yREtVMUdvY0FQYmNxeXgwZXlfN2hzN2ZhZkowX0Vxb3RyaF90N0NIXzZVcmpCVdIBb0FVX3lxTE9UWGRNUUlXYndxdXNqUEVpV0trcDh3ZTNaa1hoaWc2aUFIcElIODFCSE54ZkcyQ19OaFg2ODl2eG4yREtVMUdvY0FQYmNxeXgwZXlfN2hzN2ZhZkowX0Vxb3RyaF90N0NIXzZVcmpCVQ?oc=5",
+  "date": "2026-10-30T13:57:44+09:00"
  },
  {
   "id": "5b58d9702b6757b1",
@@ -2246,6 +3809,21 @@
   "date": "2026-10-30T13:42:18+09:00"
  },
  {
+  "id": "21c8489d970c64bb",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "mw",
+  "kind": "news",
+  "urgent": true,
+  "tags": [
+   "급여"
+  ],
+  "title": "나주시 2027년 생활임금 시간당 1만 1,620원…올해보다 3.7% 인상",
+  "summary": "나주신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wVE9wRHdLM3lacC1aY0NGTHJ0ZFBBbVFvUjRQZFR2cHVUWWc4LTFSWHJXQjRueVhqRHRVa3JvaFdaOXN5VVBfcGJjVFhtNGxWMDQ0aTJPVzROemhELUZxaXQzQkhyRzJG0gFsQVVfeXFMUF8yclIyYWR3czRYNEh1ZGNPWnBfc092LVQxYkp0X0c0N09xMVhrSHB4enFacFFGbnlQVFByNWZyenMtWE1OdEljMTdrbG5JVzJNNE41aERpeVdla2VSVFgtZ3lEcE53bVBSZXFY?oc=5",
+  "date": "2026-10-30T13:32:58+09:00"
+ },
+ {
   "id": "e22eb7a3e19a3c68",
   "tab": "hrm",
   "domain": "HR",
@@ -2291,6 +3869,21 @@
   "date": "2026-10-30T13:04:33+09:00"
  },
  {
+  "id": "58b57f563532311e",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "moel",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "지역산업의 변화, 일자리 정책과 함께 대응해야",
+  "summary": "고용노동부 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1rYmlMYUw0Q1I3ekpFWnJ2MG5hYXo1MFhvdy1RVUJ5eGdyS2dSOEJiU3JUclBKRk5CWDZ1T2lvVWhtXzA0N1h4UFdKZ3M0V2JBQjhIeUQtMUoyN2FOa1JQMll1c3JyYU96bWNrMlJ4YzFHc0NyZzlB?oc=5",
+  "date": "2026-10-30T13:04:33+09:00"
+ },
+ {
   "id": "1d741876bf46a720",
   "tab": "hrm",
   "domain": "HR",
@@ -2304,6 +3897,22 @@
   "summary": "더쎈뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xNl9JalJxMExUMDVuczYtT3BhajhocTBkSXpHS0xFVWo2MFpNZEFQdHI1VS1mTkI1b2xfSlNPSEdUWGJMV2pKekZHa0VJelZpMjRRVEdTd3dTb2o3ZTFmSGIxSUpfMC1z?oc=5",
   "date": "2026-10-30T12:44:45+09:00"
+ },
+ {
+  "id": "910f60518c55c171",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "급여",
+   "퇴직금"
+  ],
+  "title": "작년 임금체불의 41%가 ‘퇴직금’…정부, 2030년까지 전 사업장 사외적립 ‘의무화’ 추진",
+  "summary": "더퍼블릭 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1adXBXb2lRYjdxaVdxRUVRSW5lV3J1S0hFMmpsVUV5M1JsVTN0QXpLNDh0TUxOYVhmM1c3MTNRN2o3M01Md2padHA3SmFxUjQ2bEh0Q2RLNlRWMnJxNXJyS1VLNmhmY01DTFhacV9NY9IBb0FVX3lxTE1adXBXb2lRYjdxaVdxRUVRSW5lV3J1S0hFMmpsVUV5M1JsVTN0QXpLNDh0TUxOYVhmM1c3MTNRN2o3M01Md2padHA3SmFxUjQ2bEh0Q2RLNlRWMnJxNXJyS1VLNmhmY01DTFhacV9NYw?oc=5",
+  "date": "2026-10-30T12:44:33+09:00"
  },
  {
   "id": "3228158ee05bd191",
@@ -2336,6 +3945,21 @@
   "date": "2026-10-30T12:00:00+09:00"
  },
  {
+  "id": "3f07942d90a27a78",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "[윤유진의 세금톡톡4] 윤유진 서울시의원(회계세무학 박사)에게 듣는 '세금 길잡이'",
+  "summary": "네이트 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fYmJVVzRDTjc1SV8yOG9zTHQtMnJHR3FzTjhfRzFWcE9sdDNmT24wdk4wUmEtUWdIVTVpTU1MRkN3TTNkU1VuZ010dkJVVFVyQmhZ?oc=5",
+  "date": "2026-10-30T11:57:00+09:00"
+ },
+ {
   "id": "7c1d3beb6c785fad",
   "tab": "hrm",
   "domain": "HR",
@@ -2349,6 +3973,36 @@
   "summary": "레디앙 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9admZ0WkFYbGJVaFNTeUZhLTZfRE1qV1YwSUt5VzdLTVUwLVdGYkJINndPMU9vX2RrTHVObHJDRHFmb3pSNmNKcEo0RmZkTy1ZaXE3c1FXTXRSNTNzZmVoZjRleTI3NkhI?oc=5",
   "date": "2026-10-30T11:47:13+09:00"
+ },
+ {
+  "id": "70b0465224c021a3",
+  "tab": "talent",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "김택우 회장, 응급실 압수수색 반발 경찰청 앞 1인 시위",
+  "summary": "데일리팜 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFaFFxV1psYlBnSkxhM1FKX1g2U3ZWaXI3QVJMTldETi03UzYyellyNjhDMW9YYjgwNHV2SEpxamp2VnFFTFZtZmFucm4zU2Z0?oc=5",
+  "date": "2026-10-30T11:46:24+09:00"
+ },
+ {
+  "id": "e339a2bcc97f9534",
+  "tab": "hrm",
+  "domain": "IR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "단체교섭"
+  ],
+  "title": "경기지역 버스노조, 단체교섭 막판 협상에서 합의점 찾아 파업 철회",
+  "summary": "정경시사 FOCUS 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Pd0cwMDItaVZFeHdadTk4dWpRMENiaVNsQzJiVVh0TkdqTEs3XzFNdjVULXk1LWZoV2JhZG9Oa3ZvQzVUMzJLOVpFOXBnaElXRkNFa2pqTE1mRF9SdF9xaGJsRlBJOUFV?oc=5",
+  "date": "2026-10-30T11:42:01+09:00"
  },
  {
   "id": "80da9b16756312d5",
@@ -2441,6 +4095,22 @@
   "date": "2026-10-30T11:33:42+09:00"
  },
  {
+  "id": "d55385df940b39a1",
+  "tab": "hrbp",
+  "domain": "IR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "성과관리",
+   "단체교섭"
+  ],
+  "title": "조합원 96% 투명한 성과급 시급…삼성SDS 노사 단체교섭 상견례",
+  "summary": "SBS Biz 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOVUNsWGpseThGRkdMdEt4RWt2NEN0MXpIOWhlSGZuNVlUUWhIVVFWZURsQmFMek01T05uUUtQTE93WW8tYU5KclBBM3l5blRaVmJrWkl6T0_SAVhBVV95cUxQTlVDbFhqbHk4RkZHTHRLeEVrdjRDdDF6SDloZUhmbjVZVFFoSFVRVmVEbEJhTHpNNU9OblFLUExPd1lvLWFOSnJQQTN5eW5UWlZia1pJek9P?oc=5",
+  "date": "2026-10-30T11:31:00+09:00"
+ },
+ {
   "id": "ab6065e73b3d3f4d",
   "tab": "hrm",
   "domain": "HR",
@@ -2487,6 +4157,21 @@
   "date": "2026-10-30T11:10:39+09:00"
  },
  {
+  "id": "d3f25916f7116438",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "퇴직금"
+  ],
+  "title": "퇴직금 일시금이 손해입니다.. 연금 20년 받으면 세금 절반, 달라진 것 1위",
+  "summary": "Daum 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA0S1hEcm1LeGI1Skl1QTNhUTBwMEJtMDZrN1loeDR6NnM3dDRtUDR0NGFwa211WWxxeFo4TzZkMjFIVThqaXc?oc=5",
+  "date": "2026-10-30T11:10:11+09:00"
+ },
+ {
   "id": "87c546482684c032",
   "tab": "hrm",
   "domain": "HR",
@@ -2517,6 +4202,21 @@
   "date": "2026-10-30T11:05:53+09:00"
  },
  {
+  "id": "dd133abb255f6482",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "경기 버스 노사 막판 협상 타결…우려했던 출근길 대란 피했다",
+  "summary": "매일경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OUTZIOG9Obnd5aFdzeHdQS0R2QVRYbm5Oa2cxWHo5bk5aSnRtYlZYWkdrOXpwdWdfLXkxVGdyUzlvLWl0dmRZeVVhb0VrSHBkeGpGNg?oc=5",
+  "date": "2026-10-30T11:00:54+09:00"
+ },
+ {
   "id": "d5aba126cb64c25e",
   "tab": "hrm",
   "domain": "HR",
@@ -2530,6 +4230,21 @@
   "summary": "팝콘뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ib2h6ZDZzVWZVUVV5dVdfWEdVRVlPSVAyQ1pBY2hlWDJIdkd6R1BrdU5NbHpwMWJKRTJZZk5TWVlYNlhHUGJfVjNhTXpjMnBXTEt2TlFncTl5OGVGcmZSQ3gxbjc3cFotemwydU1DSdIBckFVX3lxTE1kRktfQlFVVHFsVWtGQmNlSXd0elppWEpiZmdlY3ExS0E2dEs5R3RBdlViVDVNNFJTYWZmdjRibTNocEhiUk9Qc2NoREI3enhXcUl5Ny1mTkxpUFdFWlRJT1VTX0NFWEgzWHlRR3I2UU1PZw?oc=5",
   "date": "2026-10-30T11:00:27+09:00"
+ },
+ {
+  "id": "7a11a73cc0b8b2b6",
+  "tab": "hrbp",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "성과관리"
+  ],
+  "title": "삼성전자 성과급 2억 대 600만…대표노조 누가 쥐나",
+  "summary": "자본시장뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pZFN2ODJIbHJpWThCd2VCbjNIRVV6TVNER3ZrWHM1OTNJUWhuNG1nZ1NfZl9sN2loZnV2MVZJUnNkaDdVMV9kdHh1ZW9ZSkNiRTNoM21aS2loenZ3ZFloNEY0V0tQYWc?oc=5",
+  "date": "2026-10-30T11:00:00+09:00"
  },
  {
   "id": "47a798935e43685e",
@@ -2667,6 +4382,21 @@
   "summary": "광주드림 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZaW1OUHc5SF9MNFZhWnRHUFQxM0FUSnB3WUxkZ0h0M0IyRTJmNlZZSUZ0LW1rRUI2bF95UUtOVHlWSUlNLUgtaDI5cG9Na1BRTDc3WE1oVlg1S1FPTXo3SmJxaUUzaFNja2c?oc=5",
   "date": "2026-10-30T10:31:37+09:00"
+ },
+ {
+  "id": "fb8091e4e2521442",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "경기 버스 노사 시급 3.2% 인상 합의… 파업 철회",
+  "summary": "기독일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TTTJfUVhGcGR4U2lBTUNkMUZGWTNoam5qTnNpQkotajRhNzRaRTc2NGhRdldJcnV1Xy1OUm5WNVZNVnZkcndSOFZyZmp4LXdPbkJ2bDF6TdIBXEFVX3lxTE9qVl9NV2RMZVV2NFZJc0E2VkVQdDV0d3dXM19jMXcwUkpNcmNlQ3Y4N0cwMmdiSEtHMnQxVjVXdl9MTDZtOWM4b1ZFYVo1OHNhdzVILVNkejlsd1hv?oc=5",
+  "date": "2026-10-30T10:28:21+09:00"
  },
  {
   "id": "05367b651f495b68",
@@ -4476,6 +6206,21 @@
   "summary": "농민신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HLUdPeWhQY1J0YXg5UDJQR2dMUFp2bVdOSE5GMklGcngwWDFXdF90ajFUTFh5aXVodDFJLWVvRFhhTFNQSTFpYndxaGJJZ0RSZFJ5U1lobGYxdw?oc=5",
   "date": "2026-10-29T18:36:00+09:00"
+ },
+ {
+  "id": "65ead7f68aaf3c41",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "nts",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "2026년 제6회 민간투자사업심의위원회 개최",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR3o3cUxzdHBqc1E2a2dmSlB3QUJpdlB3VFVnY2thcjVZLTJlNDZwX3drS0JxSWt0NlNoY2g2OTlnSVNvbjZxbmZrUmYtTDVMaUJrRnpBMUZ6VW5EWERZTGVtdWVGMlZXanoxX3BXRUFKNjhjNUFrdW54bEFicWl2OFRFMTJhZFJXTmlV?oc=5",
+  "date": "2026-10-29T18:28:04+09:00"
  },
  {
   "id": "e3eb16182325cdd9",
@@ -7626,6 +9371,21 @@
   "date": "2026-10-29T08:00:45+09:00"
  },
  {
+  "id": "d18fe2a907e56a14",
+  "tab": "erir",
+  "domain": "ER",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "성과관리"
+  ],
+  "title": "KB증권, PB 성과급 개편 갈등…노사 평행선 대립",
+  "summary": "DealSite경제TV 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YblZoZ2tmMlBUZFctdkU3cTBqUHZUbXBXa2JLbzVXMlRMbFlZOGlqUmd4Vzg1MHBzVE1Oc3FzZ0pHeExDWWoyUUY4S2sySlRzM3p5ZkFn?oc=5",
+  "date": "2026-10-29T08:00:25+09:00"
+ },
+ {
   "id": "a8a1b5e793ef8268",
   "tab": "erir",
   "domain": "IR",
@@ -7941,6 +9701,21 @@
   "summary": "서울경제 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05VW9NWU1UTnRKTmFOeUpfZzdtS0M1TmxuYjhLbU5XRTBoY2pZYjRuX2dFWDZLaUtCY0ZjeGVOT3BwZ094M2tzdU9jQ0QtNWgxS3fSAVNBVV95cUxPdHRZbjE1RmR1ZkI0WnFHOXZnTmlaVTZaVXRRamVkZ3NBaVFfZktXRFV4U2Mwc0dTV3NyYjhOZ1dyTkU5cDVCbXlwQXRvOHkybS1tTQ?oc=5",
   "date": "2026-10-28T21:51:11+09:00"
+ },
+ {
+  "id": "4ccbd52b19d2a1e7",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "nts",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "\"지하철 잘못 내렸어\"…'15분 내 진입하면' 추가 요금 없어요",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mUUdyS045T3gtZmQzOFZTLXdLX21QLTJzTmZCd2FlYUVWZEFsR0NBdUhkTmtFMGJwQnRaTlR5TDlEdDVCOG5EYkNheW1fX3c5RnZmbFI0S01sOUJZV3dSeDVmSDJPMzNrd1E?oc=5",
+  "date": "2026-10-28T21:45:59+09:00"
  },
  {
   "id": "34f15dfb345cb663",
@@ -10123,6 +11898,21 @@
   "date": "2026-10-28T10:18:13+09:00"
  },
  {
+  "id": "bfcc5be8e84c181c",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "nts",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "상륙공격헬기 체계개발 성공... 입체적 상륙작전 기반 마련",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWI4QUU3U0czQ1B3M2VvcTV0bVNOM2JOWmI1b1g2cVJvTmJvMnBBaGxOZlV3SmFqOHF4WE1UcWExTUlUX19UdHVzTjE3a2wwdlVlVVYwVWJ2Ulp0TFNtdllkY01ydVBURFhVWXljc1FsY2tvVlBhMkh4Smk2cjlEN0lDTC1va3F5YXEw?oc=5",
+  "date": "2026-10-28T10:16:00+09:00"
+ },
+ {
   "id": "7796d115e78ae673",
   "tab": "erir",
   "domain": "IR",
@@ -11643,6 +13433,21 @@
   "summary": "데일리메디 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53UXBLRjN3LUtOaW5aaVhsckVNRTU3SThLY0dxMUlabThvalFHbEs0X2hSMnk1MG5EVFhsa085d29MUERLVWlQN2w4cGZLRjNXTHZ6SzRUaUlKOXJIcUN2cEtHVXlrZGsz?oc=5",
   "date": "2026-10-27T21:41:00+09:00"
+ },
+ {
+  "id": "5b49ea9d07a88881",
+  "tab": "talent",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "[중앙일보 M&A] 김익래의 승부수…'사람인'으로 HR 시너지와 승계 포석",
+  "summary": "블로그 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qaC10eENyRjJBNnRDVlRqQWdhWUdUUjZFajRVMU0wTjJzTm1NRW1XbUxoYktYNXk5TXNSUUIwcDI4bEY3dGU0VWRldExZT0R5aEp5UTBubXdyZw?oc=5",
+  "date": "2026-10-27T21:38:33+09:00"
  },
  {
   "id": "4a35a30b8e9b1810",
@@ -14029,6 +15834,21 @@
   "date": "2026-10-27T09:57:43+09:00"
  },
  {
+  "id": "3538fed424015a99",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "nts",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "가을에도 식중독 조심! - 카드/한컷 | 멀티미디어",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMnFtODg3Sjd2TGlXcDgwZUk4VEVxb2tYQ1NDQ2VQNVBDbjNTemN0XzBRbVpGenAzUWVqbmczaFdyNEZ5UDFXR3E3SEdFSFhVSE1kZWlqTHMwWU40QVdtQVNyeVBEYWViU3JxSmY2a0ZQRi1qSnE1UWZ4dTRvc1ZWU3Joa2RxMzEtTWJ3?oc=5",
+  "date": "2026-10-27T09:54:51+09:00"
+ },
+ {
   "id": "af0df081a9da42b9",
   "tab": "hrm",
   "domain": "HR",
@@ -14735,6 +16555,21 @@
   "date": "2026-10-27T08:09:00+09:00"
  },
  {
+  "id": "ca0498bda184bd2b",
+  "tab": "hrm",
+  "domain": "HR",
+  "src": "nts",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "기타"
+  ],
+  "title": "국악방송과 전통공연예술진흥재단 통합 추진으로 국악·전통예술 진흥의 탄탄한 기반 마련",
+  "summary": "대한민국 정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVE9HQWNqNmxzaXJ2UmdSM1h1N3BrTGJQVXFDWEpiT0ItZHRfMFNkWDV0aHRqWWRQb2gwUTl1ZkFrU3c5THN2Sm5BazNMUHhUY1ZjTDE2RmR0M2NuRWdlTVliSWNSV1JWRG10ZWVhWGcxaUotb1RhbWxwUDlia3cybWdxdDNNeUxkSFVz?oc=5",
+  "date": "2026-10-27T08:03:34+09:00"
+ },
+ {
   "id": "26140ecbbfdf9df7",
   "tab": "hrm",
   "domain": "HR",
@@ -15349,6 +17184,21 @@
   "summary": "데일리팜 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDTDQxWThJRWd4cVd6V24zVVRXMWFQWGNHWWpscUFhTGRLSEoweGtON1VXZUdzMjVhYXlTVFhoZFZob2g4LS1mbHJHWWhRbF9ZV280aEt3?oc=5",
   "date": "2026-10-26T23:45:11+09:00"
+ },
+ {
+  "id": "e00fe881f2cbea52",
+  "tab": "talent",
+  "domain": "HR",
+  "src": "google",
+  "kind": "news",
+  "urgent": false,
+  "tags": [
+   "헤드헌팅"
+  ],
+  "title": "산업약사 취업 축하금 100만원…헤드헌팅 '프로매치' 인기",
+  "summary": "데일리팜 보도입니다. 세부 내용은 원문에서 확인하세요.",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LNS1GYllVM0diVHpfOFc3VGRob1M5YWljb29XZ0w0WEh2WkZfZGhPVFc3RWY1RnEyZmJFTUFTa3hlT0lSbUxZalJ0NnRncGZw?oc=5",
+  "date": "2026-10-26T22:57:09+09:00"
  },
  {
   "id": "813d843308f5615e",
@@ -88706,230 +90556,5 @@
   "summary": "미주조선일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQzB3S1VkS0NzNHRXY3RoTFFSdmRoT1MwRl9vOG5HLW1ZdFVKZVdTa2x1N0JBYUdRNUFTV00zMzZMQ2VYTURMMnpJcGF5VlVZQ29DSE5Tbm9XWUNHdGJpeWlNR0xsOWxZTUR1VHJIOGpvRXFneTI3YVhFR3E1anFKWnc2dnhBU1A0a1FORGFDU192a3BPa0FVX1BrNmxwSmdGTHEyalN4aUlpZm5zT3hFaGhramxBMms0S3JYQVdRMDA0d1B0?oc=5",
   "date": "2026-10-02T11:30:27+09:00"
- },
- {
-  "id": "3a8e1a21b2b3624c",
-  "tab": "erir",
-  "domain": "ER",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "'60세 벽' 허무는 데 10년…정년 65세, '속도'와 '방식'만 남았다",
-  "summary": "이로운넷 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wV2p3eHBHN3NGWkpRSExOeGVYbGFKbXFCTVZMTDMyaDlxbHB0dmZUeUhscVpBUDd4SnREZUpVQWVFMUpHSVk4M1ROYld6QThOX3NQOGk1d1VHNGdHRU5RZzdFQjg1Zw?oc=5",
-  "date": "2026-10-02T09:10:00+09:00"
- },
- {
-  "id": "875c26055d08263c",
-  "tab": "hrm",
-  "domain": "HR",
-  "src": "moef",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "주거환경개선 1억 이하 주택 양도세 중과 제외",
-  "summary": "정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hY25rbWVRRE1JSW93UDNya2dzQUdmc3BIR2xCb3ZnWGxoclRCY2VMaF9PZDZtOFNERnVIdnhlczhuZzFjVlBxRFBLeGdXX2JtYUg0aGxHUVNCZ2ROZzdUY0VGRHFoVzRMOWNTSA?oc=5",
-  "date": "2026-10-02T05:57:00+09:00"
- },
- {
-  "id": "e92bec6ce4759c64",
-  "tab": "talent",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "웍스피어, 중소기업 재직자 대상 AI 직무교육 브랜드 운영",
-  "summary": "로이슈 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lMzREVjN5SmZvU1RHVDBkVUZEaHk1aWhNeDJ0dnc2UlMtTnp4QUlBMTVJU1dFbFBWTm5DZzhUajluQ2RwN1RzZ0txMzkyUndPb0g0SHBDUU1PQ2djNkNVWTZsNVBPZFd3OXIzVTh6T081bXFKVklEVGhn?oc=5",
-  "date": "2026-10-01T22:58:06+09:00"
- },
- {
-  "id": "923b10b1a3302778",
-  "tab": "hrm",
-  "domain": "HR",
-  "src": "nts",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "새 법령 수첩",
-  "summary": "정책브리핑 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wbkF4b1hOeWFzS20tRjAwa0x5Qldtc2NmbDZUamRQUjFLVDJHS0JSQzA2bVhoQWVYa0FFalRnZTR5NHR1cnFXdjhOYURPMGpqRVpkUXlicWUzLS1wVnI1Rzh0NUpPYUNUNkRiYg?oc=5",
-  "date": "2026-10-01T22:43:01+09:00"
- },
- {
-  "id": "ed63a96aaf783e4f",
-  "tab": "hrm",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "[PB가 들려주는 재테크 이야기]‘더 내고 더 받는다’ 노후 현금흐름 다시 짜야",
-  "summary": "경상일보 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NS1hvMWZ3VEUxUnB3dktDZ3l1QTEwWXo5OW1oU0NaSUNsaktGQmEyRjZqdDZYZ1NsQWYyMnlPQWNDbjl6VnJkd0JtMndURndpWE9IMndoeWtyTGc0a0NLQ0pyMHl0OVgtSFI0aQ?oc=5",
-  "date": "2026-10-01T21:44:00+09:00"
- },
- {
-  "id": "69bdd44ba1af546e",
-  "tab": "talent",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "웍스피어, 중소기업 재직자 AI 교육 나선다...'웍시프트' 론칭",
-  "summary": "뉴스저널리즘 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Nd1M1WUV1QWNkQ1hzZXhXa3pNbTNQWW5pSHBGa202RENCbm96Sms0Z3ZqZ1NZZFFvQ1BsQ2N0SUhsN0lCbk9Ha0lSa1lHNlhUY2UtUHdLZFVnck9rTjUydDAtTG81RTlXSHhZ?oc=5",
-  "date": "2026-10-01T19:19:04+09:00"
- },
- {
-  "id": "77ae0e724b818dd7",
-  "tab": "hrm",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "다른 테마와 비교하는 산소 미포함 시드 사이트 시각적 구성",
-  "summary": "Calgary Roughnecks 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYQnRHUEJyeXdLVlNZdWxiWUZXVDVVQjdNNllkVjFWNHRWY0FiZHVtQTV5QWllOUt2dGlmb0VoTUZSQ0RRcWRHbk91N1pJdzZ1MnRJNGVsbndqWno2QWhkdDJ2cUxQM3E0NFRxLWpjQVRYUFc1VVE?oc=5",
-  "date": "2026-10-01T18:30:41+09:00"
- },
- {
-  "id": "497599fee12b2c8d",
-  "tab": "hrbp",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "마크로젠 신상흠 G6, 소유 주식 수량 2203주 보고…소유 지분율 0.02%",
-  "summary": "디지털투데이 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lS2puam45ZnZSWnBreVh3a3NBYjcwcERfN0lWVEwyalFWT09jdUxZbkNPa2N4VlBIYS1sejl4djhOdFp2SzczTms5V1lNSDBEUmtLYzZ3SnNtSDB1OWJWbUJ4c1RGb2xQNEtON3FKc205dVhWRlU3aG1uWQ?oc=5",
-  "date": "2026-10-01T18:11:05+09:00"
- },
- {
-  "id": "8d72e4d0ba8d7fbf",
-  "tab": "hrm",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "[인포그래픽] 10월 5일부터 어떤 범주의 노인들이 최고 수준의 혜택을 받을 수 있나요?",
-  "summary": "Vietnam.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVlXaFppVWhjV0RHV3EyU3d6VFB6bjNGa01GTjNhMnJQVkNJVXhjYmlOSnp0azRLVkpPQ3dkdjdieVI1UnBaTHpVN2x1R0lHeDRYWGlON3g4Ynh0ck9OUWhWazlPQ2VYYnp1Rl8zRUxIZHNNTGpqQV85Mkk5cmRDcFYwb05Hd01ZX1RtcjVEdS1GSmdEcjBybzRxRGxKRXM0ZjctdW12S2lwem8?oc=5",
-  "date": "2026-10-01T16:49:42+09:00"
- },
- {
-  "id": "ed5668f50d16fcff",
-  "tab": "hrm",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "꽝찌, 보험 기금 사기 방지를 위해 사후 검사 강화",
-  "summary": "Laodong.vn 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTzFnaS01SDNYYXg5dVFwd2VPakdhS1JnR2pPS0ItSWJuWjFuZTNscnJPdXR0RW5CQ1R3VEhXTkZQa2xrS2hlX3l6M0VBandiNmJWaHdBQmtJNDJwZEx2MFlXZ1dLbXdtZUZuaXFwOVMxS181aVpNQXZGRi1xSEJvVEdIVVF4cHZjcnljbGZ3Mkh5ZUs4LWJHRjd3?oc=5",
-  "date": "2026-10-01T16:11:00+09:00"
- },
- {
-  "id": "b38161f5f7a2c053",
-  "tab": "erir",
-  "domain": "ER",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "'고공농성' 한화오션 원청교섭 갈등 격화",
-  "summary": "포쓰저널 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6clVYZ3VtNWdhUk8yeE9Pa3hqaURBTU50ZkF4MjNZdGNuUjVVU0VPSHFxcmhxX0ZuaWNIcDNSY3dCZ0NhdUpDTktyOC1pVnNMcXpfa2RGWUNabm9EVE40SEEydFU?oc=5",
-  "date": "2026-10-01T16:06:32+09:00"
- },
- {
-  "id": "45f2b8c37a392295",
-  "tab": "talent",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "웍스피어, 중소기업 AI 실무교육 ‘웍시프트’ 론칭…360명 모집",
-  "summary": "한국면세뉴스 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11cnloMFA0NXQ1RmZkcVVKZkdibzlud2tQWlE5X0VRazMwdkduVTFTYk1KS2RwaGZPSXgzRFNaSFoxeV9nTm1Cc1h0ZkdzUlVFYWtyOUlmYi1rU21ZRGNfMDZla0JiRDNHYnc?oc=5",
-  "date": "2026-10-01T15:39:30+09:00"
- },
- {
-  "id": "9af847e185a3bfa2",
-  "tab": "erir",
-  "domain": "ER",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "[르포] 30미터 하늘로 올라간 노동자들…\"한화오션, 교섭 나와라\"",
-  "summary": "뉴스워치 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80RWt5QXFpdkhwclpnY21taGF0YkFITDlObmZSbW93cnV0ckZYSW5LbHN1eG0xQWtWTUxhNWRqZnFlMTc1YmxLSnBPSUwzVEdZT1UwQ1VRWVAyOGU1R00zcU4wcHJLdkxRMXc?oc=5",
-  "date": "2026-10-01T15:34:09+09:00"
- },
- {
-  "id": "5529221a0dbc0e1e",
-  "tab": "talent",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "AI 전환, 결국 사람이 한다… 웍스피어, 중소기업 재직자 대상 AI 역량 교육 선보여",
-  "summary": "뉴스투데이 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wcUlTZjJSQ3RNVzU2aTRqU1VyOTVVeHUwZVl1aGc4U0tQR3dZdGdQSlZCN0tEbmV6MjdnNHV1NHpyMl9jSnBDOTFiM28wMUlPMVB4REROZHNJUXQ3WUE?oc=5",
-  "date": "2026-10-01T11:35:00+09:00"
- },
- {
-  "id": "6b6556b1766fcfb6",
-  "tab": "talent",
-  "domain": "HR",
-  "src": "google",
-  "kind": "news",
-  "urgent": false,
-  "tags": [
-   "기타"
-  ],
-  "title": "웍스피어, 중소기업 재직자 AI 역량 강화 나선다",
-  "summary": "전자신문 보도입니다. 세부 내용은 원문에서 확인하세요.",
-  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1sNDlxa2ZwYThpNmpmb00tc2Q2bFZHdWZYNi1OUTYxeG1QS19EMWVYV2dUZGJoUEZ0QURrV25JdHkyQThOT2dCNUlEdWtVUQ?oc=5",
-  "date": "2026-10-01T11:15:12+09:00"
  }
 ]
